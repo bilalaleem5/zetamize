@@ -1,0 +1,868 @@
+
+===========================================
+FILE: Portfolio Details\Android Automation bot\Instagram Search Bot LDPlayer\Heading and detial.docx
+===========================================
+Instagram Automation Bot
+
+The Instagram Automation Bot is designed to streamline interactions on the Instagram platform while focusing on capturing and communicating with users via email. Here's a comprehensive overview of its capabilities:
+
+Core Actions:
+
+Automated Login:
+
+The bot initializes by launching the Instagram application on specified Android devices.
+
+It securely logs into Instagram utilizing pre-configured credentials, ensuring seamless access without manual input.
+
+Username Search and Email Capture:
+
+By navigating through the Instagram interface, the bot searches for specific usernames from a predefined list.
+
+It identifies and extracts email addresses linked to these profiles, storing them systematically in a CSV file for easy reference.
+
+Email Outreach (Hypothetical Extension):
+
+Building upon its email capture functionality, the bot can be enhanced to send personalized emails to the captured email addresses.
+
+Using email APIs, it automates outreach efforts through customizable templates, facilitating communication with target users directly from the application.
+
+Error Handling and Logging:
+
+Equipped with robust error handling mechanisms, the bot logs any interaction issues for detailed review, aiding in troubleshooting and further development.
+
+In case of errors during username searching or other activities, the bot automatically attempts retries, minimizing disruptions.
+
+By combining these functionalities, the bot effectively automates the process of collecting and reaching out to Instagram users, providing an efficient solution for data extraction and potential communication management.
+
+
+Error on Portfolio Details\N8n Automations\ai calling lead n8n\AI Calling Lead Generation Agent – Workflow Overview.pdf: pdf is not a function
+
+Error on Portfolio Details\N8n Automations\appointment booking n8n\Appointment Booking Voice AI Agent – Workflow Overview.pdf: pdf is not a function
+
+Error on Portfolio Details\N8n Automations\blog automation n8n\_Blogs Automation with JTL WebApp – Workflow Overview.pdf: pdf is not a function
+
+Error on Portfolio Details\N8n Automations\email lead n8n\📧 Email Leads Automations with Advanced Personalization – Workflow Overview.pdf: pdf is not a function
+
+Error on Portfolio Details\N8n Automations\meme n8n\🎭 Meme Generator Workflow – Overview.pdf: pdf is not a function
+
+Error on Portfolio Details\N8n Automations\reddit post lead generation\🔄 Reddit Content Filter & Notifier Workflow – Overview.pdf: pdf is not a function
+
+===========================================
+FILE: Portfolio Details\new\aixen ai\Heading and detial.docx
+===========================================
+Aixen AI
+
+Unified AI Communication & Lead Management System
+
+
+
+Overview
+
+Aixen AI is an all-in-one AI-powered automation platform designed to centralize and streamline business communication across multiple channels.
+
+It eliminates the need to manage WhatsApp, Instagram, Facebook, and TikTok separately by bringing everything into a single intelligent system — powered by LLMs and automation workflows.
+
+Instead of manually replying, tracking leads, or juggling conversations, Aixen AI handles communication, engagement, and lead management automatically — so businesses can focus on closing, not chasing.
+
+
+
+What Problem It Solves
+
+Most businesses today face:
+
+Scattered conversations across platforms 
+
+Slow or inconsistent replies to leads 
+
+Missed opportunities due to manual handling 
+
+No centralized view of customer interactions 
+
+Time wasted on repetitive messaging 
+
+Aixen AI fixes this by turning communication into an automated, intelligent system.
+
+
+
+Core Capabilities
+
+1. AI-Powered Messaging (LLM Integration)
+
+Automatically replies to incoming messages using advanced AI 
+
+Context-aware responses (not generic bots) 
+
+Human-like conversations across platforms 
+
+Custom tone & business-specific training 
+
+
+
+2. WhatsApp Automation
+
+Handles incoming messages instantly 
+
+Auto-replies based on intent 
+
+Lead qualification through conversation 
+
+Smart follow-ups 
+
+
+
+3. Multi-Platform Comment Automation
+
+Automatically responds to comments on: 
+
+Instagram 
+
+Facebook 
+
+TikTok 
+
+Converts engagement into conversations 
+
+Turns comments into leads 
+
+
+
+4. Unified Lead Management System
+
+All leads in one dashboard 
+
+Tracks conversations across platforms 
+
+Lead status management (new, engaged, converted) 
+
+No more scattered DMs 
+
+
+
+5. Chat Scheduling & Follow-Ups
+
+Automated follow-up sequences 
+
+Scheduled replies based on timing or behavior 
+
+Keeps leads warm without manual effort 
+
+
+
+6. Voice Understanding
+
+Processes voice messages 
+
+Converts speech → text → AI response 
+
+Enables hands-free interaction handling 
+
+
+
+7. Video Understanding
+
+Extracts meaning from video content 
+
+Helps in contextual replies or automation triggers 
+
+Useful for content-driven engagement workflows 
+
+
+
+8. Document (PDF) Understanding
+
+Reads and understands documents (PDFs) 
+
+Can answer queries based on uploaded files 
+
+Useful for product catalogs, FAQs, policies 
+
+
+
+Key Advantage
+
+Aixen AI is not just a chatbot — it’s a full communication operating system.
+
+Instead of:
+
+5 tools 
+
+3 dashboards 
+
+Manual replies 
+
+You get:👉 One platform👉 One AI brain👉 Fully automated communication
+
+
+===========================================
+FILE: Portfolio Details\new\clozr Ai\Heading and detial.docx
+===========================================
+CLOZR AI — Documentation
+
+Title
+
+CLOZR AI — Autonomous Lead Acquisition & Conversion System
+
+
+
+Overview
+
+CLOZR AI is an end-to-end AI-powered lead acquisition and outreach platform designed to automate the entire outbound workflow — from discovering high-quality leads to converting them into conversations.
+
+Instead of juggling multiple tools for scraping, messaging, and follow-ups, CLOZR centralizes everything into a single system that:
+
+Finds leads from Google Maps & LinkedIn 
+
+Enriches and organizes lead data 
+
+Uses AI to generate personalized outreach messages 
+
+Executes multi-channel campaigns (Email, WhatsApp, LinkedIn) 
+
+Handles automated follow-ups 
+
+Tracks and manages replies in one place 
+
+In simple terms:It replaces manual prospecting + outreach + follow-up with one intelligent system that runs continuously.
+
+
+
+Core Value Proposition
+
+I help businesses automate lead generation and outreach so they can consistently turn cold prospects into warm conversations — without hiring SDRs or spending hours manually.
+
+
+
+Core Actions (What CLOZR Actually Does)
+
+1. Lead Acquisition
+
+CLOZR pulls targeted leads from multiple sources:
+
+Google Maps Scraper 
+
+Extracts businesses based on niche, keywords, and location 
+
+Captures data like: 
+
+Business name 
+
+Phone number 
+
+Website 
+
+Email (if available) 
+
+LinkedIn Scraper 
+
+Extracts: 
+
+Profiles (decision-makers) 
+
+Company data 
+
+Filters by: 
+
+Industry 
+
+Role 
+
+Location 
+
+
+
+2. Lead Processing & Structuring
+
+Cleans and formats raw scraped data 
+
+Removes duplicates 
+
+Organizes leads into campaign-ready datasets 
+
+Prepares data for personalization 
+
+
+
+3. AI-Powered Message Generation
+
+CLOZR uses AI to generate outreach messages dynamically based on:
+
+Business type / niche 
+
+Target persona 
+
+Service being offered 
+
+Selected tone 
+
+Message types generated:
+
+Cold emails 
+
+LinkedIn connection messages 
+
+WhatsApp outreach 
+
+Follow-up sequences 
+
+
+
+4. Campaign Builder (Core Engine)
+
+Users configure outreach campaigns step-by-step:
+
+Step 1: Data Source
+
+Select leads (Google Maps / LinkedIn / uploaded) 
+
+Step 2: Service Details
+
+Define: 
+
+What you offer 
+
+Who you help 
+
+Desired outcome 
+
+Step 3: Tone Selection
+
+Choose style: 
+
+Casual 
+
+Professional 
+
+Persuasive 
+
+Direct / conversational 
+
+Step 4: Channels
+
+Select outreach platforms: 
+
+Email 
+
+WhatsApp 
+
+LinkedIn 
+
+Step 5: Preview & Launch
+
+Review generated messages 
+
+Launch campaign 
+
+
+
+5. Multi-Channel Outreach Execution
+
+CLOZR sends messages automatically across:
+
+Email campaigns 
+
+WhatsApp messaging 
+
+LinkedIn outreach 
+
+This ensures higher response rates vs single-channel outreach.
+
+
+
+6. Automated Follow-Ups
+
+Sends follow-ups based on: 
+
+Time delay 
+
+No response condition 
+
+Maintains natural conversation flow 
+
+Increases reply rates without manual effort 
+
+
+
+7. Reply Center (Inbox System)
+
+Centralized place to manage all responses:
+
+View replies from all channels 
+
+Track conversations 
+
+Identify interested leads 
+
+Respond manually or with AI assistance 
+
+
+
+8. Auto Closer (Conversion Layer)
+
+AI assists in: 
+
+Continuing conversations 
+
+Answering basic queries 
+
+Nudging leads toward booking / conversion 
+
+
+
+Key Modules (UI Structure)
+
+Dashboard 
+
+Overview of campaigns, leads, performance 
+
+Google Maps 
+
+Lead scraping & extraction 
+
+LinkedIn 
+
+Profile and company scraping 
+
+Campaign Builder 
+
+Campaign creation workflow 
+
+Reply Center 
+
+Unified inbox for responses 
+
+Auto Closer 
+
+AI-assisted conversion handling 
+
+Settings 
+
+Configurations, integrations, preferences
+
+
+===========================================
+FILE: Portfolio Details\Request Webs Scrapper\Logoed_Scrapper Request\heading and Description.docx
+===========================================
+Project: Logoed Scrapper
+
+Overview The Logoed Scrapper is an automated data extraction tool designed to collect and structure content from Logoed’s project showcase pages. Using browser automation, it gathers detailed metadata and interleaved content blocks, including images, project descriptions, and video references, exporting them into a clean, developer-friendly JSON format.
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Author
+
+Date
+
+Categories and Tags
+
+Thumbnail image
+
+Content Parsing Extracts rich content blocks including:
+
+Inline paragraphs (project descriptions, quotes)
+
+Images (with captions)
+
+Video references (e.g., MP4 links)
+
+Formatted Output Stores results as a deeply structured JSON file, organizing all extracted data for each project in a human-readable and programmatically usable format.
+
+Interface and Operation This scraper is a script-based tool, typically run via the command line. It operates on specified Logoed project URLs and saves JSON outputs to the local filesystem.
+
+Inputs:
+
+Logoed project page URLs
+
+Output file path
+
+Outputs:
+
+Structured JSON file containing all project metadata and content
+
+Technical Highlights
+
+Selenium-based automation for dynamic content parsing
+
+Handles both images and video references
+
+Interleaves paragraphs and images for accurate content representation
+
+Output Snapshot Example of extracted fields:
+
+"title" → Pannonia Group
+
+"author" → Mikie
+
+"date" → 3 November 2023
+
+"content" → Interleaved list of paragraphs and image links with captions
+
+"yt_references" → List of video URLs
+
+
+===========================================
+FILE: Portfolio Details\Request Webs Scrapper\Lovely package\Heading and Description.docx
+===========================================
+Project: Lovely Package Scraper
+
+Overview The Lovely Package Scraper is a Selenium-powered tool for extracting and structuring packaging design articles from Lovely Package. It automates the collection of article metadata, design details, and rich content blocks, outputting them as organized JSON for further analysis or display.
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Author
+
+Date
+
+Category
+
+Thumbnail image
+
+Design info (designer, country, font, etc.)
+
+Content Parsing Extracts content blocks including:
+
+Inline paragraphs (project stories, design rationale)
+
+Images (with captions)
+
+Video references (if present)
+
+Formatted Output Exports results as a structured JSON array, with each article’s metadata and content blocks clearly organized.
+
+Interface and Operation Script-based, run via command line, operating on specified article URLs and saving JSON outputs locally.
+
+Inputs:
+
+Lovely Package article URLs
+
+Output file path
+
+Outputs:
+
+Structured JSON file containing all article metadata and content
+
+Technical Highlights
+
+Selenium-based automation for dynamic web content
+
+Handles multiple articles in a single run
+
+Captures both images and detailed design info
+
+Output Snapshot Example of extracted fields:
+
+"title" → Ticketybrew
+
+"author" → Chris Zawada
+
+"category" → Alcoholic Drinks Packaging Design
+
+"design_info" → { Designed by: "Carter Wong", Country: "United Kingdom" }
+
+"content" → Interleaved list of paragraphs and image links with captions
+
+
+===========================================
+FILE: Portfolio Details\Request Webs Scrapper\visuelle_scraper\Heading and Description.docx
+===========================================
+Project: Visuelle Scraper
+
+Overview The Visuelle Scraper is a Selenium-driven tool for extracting and structuring content from Visuelle’s design and podcast showcase pages. It automates the retrieval of article metadata, images, and descriptive content, exporting them into a structured JSON format for easy reuse.
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Date
+
+Categories and Tags
+
+Thumbnail image
+
+Content Parsing Extracts content blocks including:
+
+Inline paragraphs (episode summaries, project descriptions)
+
+Images (with captions)
+
+Video references (e.g., Vimeo links)
+
+Formatted Output Exports results as a structured JSON array, with each entry’s metadata and content blocks clearly organized.
+
+Interface and Operation Script-based, run via command line, operating on specified Visuelle article or episode URLs and saving JSON outputs locally.
+
+Inputs:
+
+Visuelle article or episode URLs
+
+Output file path
+
+Outputs:
+
+Structured JSON file containing all article metadata and content
+
+Technical Highlights
+
+Selenium-based automation for dynamic content
+
+Handles both podcast and design showcase entries
+
+Interleaves images and paragraphs for accurate content representation
+
+Output Snapshot Example of extracted fields:
+
+"title" → Episode 15 Tyler Eide
+
+"date" → 5.05.25
+
+"categories" → [ "Podcast" ]
+
+"content" → Interleaved list of paragraphs and image links with captions
+
+"yt_references" → List of video URLs
+
+
+===========================================
+FILE: Portfolio Details\Selenium Based Scrapper\Amazon Product Scrapper\Heading and Details.docx
+===========================================
+Web Scraping with Selenium: Amazon Product Data Extractor
+
+Description
+
+This project demonstrates a comprehensive web scraping solution using Python and Selenium to extract detailed product information from Amazon. The script automates the extraction of various product attributes including brand name, price, images, colors available, and customer reviews along with their ratings. It is designed to navigate through different product categories, handle dynamic page loading, and manage browser sessions efficiently.
+
+
+
+Key Features
+
+Automated Browser Control: The script utilizes Selenium for browser automation to load pages and interact with web elements dynamically.
+
+Randomized Delays: Introduces random sleep intervals between interactions to mimic human browsing behavior and avoid detection as a bot.
+
+Detailed Data Extraction: Extracts comprehensive product data such as ASIN, title, price, color variations, and customer reviews with ratings.
+
+Robust Error Handling: Implements try-except blocks to handle and log errors during element selection and data extraction.
+
+Efficient Data Management: Each product’s data is saved in JSON format into organized directories classified by categories and subcategories.
+
+Multi-layered Navigation: Navigates through main categories and subcategories, exploring each product listing page and its details page.
+
+Headless Mode Support: Enables headless mode for faster execution without opening a UI, suitable for large-scale data collection tasks.
+
+
+
+Technologies Used
+
+Python: Core programming language for scripting the automation and data processing logic.
+
+Selenium: Facilitates browser control and interaction with web elements programmatically.
+
+Chrome WebDriver: Drives the Chrome browser session used by Selenium for automation purposes.
+
+Regular Expressions (regex): Utilized for pattern matching to parse URLs and extract specific strings like ASIN codes.
+
+dotenv: Manages environment variables for configuration settings such as paths and proxies.
+
+
+
+Potential Use Cases
+
+E-commerce Analysis: Provides insights into product features, pricing trends, and consumer sentiment from reviews.
+
+Competitor Monitoring: Automat the process of tracking competitors’ listings and updates.
+
+Market Research: Gathers detailed product information to identify market gaps or opportunities.
+
+
+===========================================
+FILE: Portfolio Details\Selenium Based Scrapper\Arena Selenium\Heading and Description.docx
+===========================================
+Project: Are.na Editorial Scraper
+
+Overview
+
+The Are.na Editorial Scraper is a data extraction tool built using Selenium and designed to automate the process of scraping articles from Are.na's editorial pages. It collects structured content — including titles, author info, reference links, images, and full article paragraphs — and exports them into a clean JSON format for further use.
+
+
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Author
+
+Date
+
+Categories & Tags
+
+References (like "read the algorithm", etc.)
+
+Content Parsing Extracts rich content blocks including:
+
+Inline paragraphs
+
+Images (with captions)
+
+External references
+
+Formatted Output Stores results as a deeply structured JSON file, organizing all extracted data for each editorial in a human-readable and programmatically usable format.
+
+
+
+Interface & Operation
+
+This scraper is a script-based tool, typically run via the command line. It does not include a graphical interface but operates based on specified input URLs and saves JSON outputs to the local filesystem.
+
+Inputs:
+
+Are.na editorial page URL(s)
+
+Output file path
+
+Outputs:
+
+Structured .json file containing all article metadata and body content
+
+
+
+Technical Highlights
+
+Selenium-Based Automation Navigates and parses dynamic web content on Are.na using headless browser automation.
+
+Image & Caption Handling Collects all <img> elements with corresponding captions for inclusion in exported JSON.
+
+Content Block Classifier Differentiates between paragraph content and image content with caption mapping.
+
+Expandable Design Can be extended to include:
+
+Video links
+
+Author bios
+
+Embedded media references
+
+Related articles
+
+
+
+Output Snapshot
+
+Example of extracted fields:
+
+"title" → So You Want to Escape the Algorithm
+
+"author" → Elan Ullendorff
+
+"date" → January 16, 2025
+
+"references" → Set of Are.na block links
+
+"content" → Interleaved list of paragraphs and image_links with optional captions
+
+
+===========================================
+FILE: Portfolio Details\Selenium Based Scrapper\extraweg_scrapper Selenium\Heading and Description.docx
+===========================================
+Project: Extraweg Portfolio Scraper
+
+Overview
+
+The Extraweg Portfolio Scraper is an automated data collection tool developed using Selenium. It extracts detailed metadata, multimedia content, and structural information from project pages on the Extraweg website. The final output is stored as a structured JSON file that includes project details, image content, video references, and URLs for further use in creative archives or media catalogs.
+
+
+
+Features
+
+Project Metadata Extraction Captures credits and classification data for each item including:
+
+Client
+
+Agency
+
+Production Company
+
+Art Director
+
+Category
+
+Tags
+
+Headings (if present)
+
+Content Collection Gathers all visual elements associated with a project:
+
+Multiple high-resolution image links
+
+Optional image captions
+
+Paragraphs describing the project (if available)
+
+Video Reference Scraping Identifies and collects embedded or linked video content such as:
+
+Vimeo links
+
+YouTube channels
+
+Hosted video files (e.g., .mp4 from Wix)
+
+Multiple Project Handling Supports extraction from various project categories like "commercial" and "artwork", ensuring that empty content blocks (like missing images or text) are still handled gracefully.
+
+
+
+Interface & Operation
+
+This scraper is a command-line-based utility with clearly defined input-output behavior.
+
+Input:
+
+List of Extraweg project URLs
+
+Output:
+
+A JSON file storing an array of complete project objects, one per entry
+
+
+
+Technical Highlights
+
+Selenium-Based Page Interaction Uses browser automation to handle lazy-loading images, media carousels, and JavaScript-rendered content.
+
+Flexible Content Block Parser Differentiates between textual and image content while preserving order and structure.
+
+High-Fidelity Media Capture Saves image links in original resolution with appropriate URLs, ideal for visual archiving or presentation layers.
+
+Error Tolerance Handles projects with partial or missing fields (such as absent text blocks or image captions) without breaking the structure of the final data.
+
+
+===========================================
+FILE: Portfolio Details\Social Media Automation\Instagram Unfollow Bot\heading adn  detail.docx
+===========================================
+Instagram Unfollow Bot Application
+
+This application is an automated solution designed to help users efficiently manage their Instagram following list. Utilizing the power of Selenium and the PyQt framework, the bot allows users to unfollow a batch of Instagram accounts specified in a CSV file. The user-friendly interface lets you configure daily and hourly limits, ensuring compliance with Instagram's restrictions. Featuring a smart login detection mechanism, the application pauses to request user input for manual authentication when needed. The progress and activity logs provide users with real-time updates on the bot's operations, enhancing usability and transparency.
+
+Skills Demonstrated
+
+PyQt GUI Development: Building a responsive and interactive graphical user interface with PyQt5.
+
+Multithreading in Python: Employing QThread for running tasks concurrently without blocking the main UI thread.
+
+
+
+Web Automation with Selenium: Automating browser actions using SeleniumBase for Instagram interactions.
+
+Data Management with CSV and JSON: Reading from and writing to CSV files for user data, and utilizing JSON for maintaining operational stats.
+
+Exception Handling and Logging: Implementing robust error handling and logging mechanisms to ensure smooth operation and debugging capabilities
+

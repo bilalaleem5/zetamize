@@ -1,0 +1,375 @@
+{
+    "details": {
+        "title": "So You Want to Escape the Algorithm",
+        "tags": [],
+        "categories": [
+            "Essay"
+        ],
+        "date": "January 16, 2025",
+        "author": "Elan Ullendorff",
+        "thumbnail": "https://images.ctfassets.net/xq10wb7ogoji/2hiA4wia8Xbh3QarFIwmPy/4598bff754cbacf74b4dd88d7f983f44/sywteta.jpg",
+        "references": {
+            "read the algorithm": "https://www.are.na/elan-ullendorff/read-the-algorithm",
+            "map the algorithm": "https://www.are.na/elan-ullendorff/map-the-algorithm",
+            "write the algorithm": "https://www.are.na/elan-ullendorff/write-the-algorithm",
+            "escape the algorithm": "https://www.are.na/elan-ullendorff/escape-the-algorithm-yzqf6tuqcqm"
+        }
+    },
+    "content": [
+        {
+            "image_link": "https://images.ctfassets.net/xq10wb7ogoji/2hiA4wia8Xbh3QarFIwmPy/4598bff754cbacf74b4dd88d7f983f44/sywteta.jpg",
+            "caption": "Art by Elan Ullendorff. [A hand-drawn map overlaying a blurred image of a hand holding an iPhone.]"
+        },
+        {
+            "image_link": "https://images.ctfassets.net/xq10wb7ogoji/2hiA4wia8Xbh3QarFIwmPy/4598bff754cbacf74b4dd88d7f983f44/sywteta.jpg",
+            "caption": ""
+        },
+        {
+            "paragraph": "This piece is co-published with Elan’s excellent newsletter, Escape the Algorithm."
+        },
+        {
+            "paragraph": "Maybe you were drawn in enough to click this headline because you feel it too: a latent unease with how the world is being fed to you, and how you are being fed back to it — a feeling that researcher Shagun Jhaver calls “algorithmic anxiety.” If I linger on this video of a power wash too long will I be confused for a power washing enthusiast? Did I buy that skirt because it suits my form of self expression, or because I was manipulated by effective ad targeting? Do I actually believe what I believe? Or am I just a product of what platforms show me?"
+        },
+        {
+            "paragraph": "The most common prescribed cure to algorithmic anxiety is control and abstinence. Reduce the number of hours you spend on Instagram each week. Create barriers to opening Instagram in the first place. Better yet, delete Instagram entirely."
+        },
+        {
+            "paragraph": "If you've found that this strategy doesn't work for you, that receiving your weekly Screen Time report feels less like moderation, more like self-flagellation, there are good reasons for that. The first is that even if you delete Instagram, you still live in an Instagram world, in which, for example, the aesthetic possibilities, pathways to fame, and social dynamics are all profoundly influenced by the platform."
+        },
+        {
+            "paragraph": "But the second is perhaps even more sobering. I write a newsletter, teach a course, and run workshops all called “escape the algorithm.” The implicit joke of the name’s particularity (not “escape algorithms” but “escape the algorithm”) is that living outside of algorithms isn't actually possible. An algorithm is simply a set of instructions that determines a specific result. The recommendation engine that causes Spotify to encourage you to listen to certain music is a cultural sieve, but so were, in a way, the Billboard charts and radio gatekeepers that preceded it. There have always been centers of power, always been forces that exert gravitational pulls on our behavior."
+        },
+        {
+            "paragraph": "The anxiety isn't determined by the presence or absence of code. It comes from a lack of transparency and control. You are susceptible whether or not TikTok exists, whether or not you delete it. Logging off is one tool, but it will not alone cure you."
+        },
+        {
+            "paragraph": "Instead of withdrawing, I encourage my students to dive deeper, engaging with platforms as if they were close reading a work of literature. In doing so, I believe that we can not only better understand a platform's ideological premises, but also the inevitable cracks in a rigid software logic that enables the surprising, delightful messiness of humanity to shine through. And in so doing, we might move beyond the flight response towards a fight response. Or if it is a flight response, let it be a flight not just away from something, but towards something."
+        },
+        {
+            "paragraph": "Do your research"
+        },
+        {
+            "paragraph": "The first step is to deeply understand the algorithms of the platform you’re trying to escape. Use the platform with a lens towards what makes them tick and why. Form your own hypotheses about these questions:"
+        },
+        {
+            "paragraph": "What are some of the contexts that might influence the creation of its algorithms?"
+        },
+        {
+            "paragraph": "How do its algorithms work?"
+        },
+        {
+            "paragraph": "What are some biases that its algorithms might hold?"
+        },
+        {
+            "paragraph": "How do those biases manifest on the platform?"
+        },
+        {
+            "paragraph": "What are some outcomes those manifestations might have on its users or culture at large?"
+        },
+        {
+            "paragraph": "Then, get to work researching. How does the platform make money? What is the mythology around the company’s founders and origins? What is its corporate culture? When have there been accusations of bias, privacy violations, dark design patterns, or censorship? Has the platform ever been under investigation? Does any documentation exist of its design philosophy or how it ranks certain pieces of content above others?"
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNzE3NzU4OS9vcmlnaW5hbF8wZDkxMTZkMWRmYjJhODM3NTg1ZDE3MjcxZDBiN2FkYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjU2NDQxOC9vcmlnaW5hbF85ODUzOWVhMDdmNzUwOWRkMzA0ZjA3MTViNDAwYTc1OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTg1MTEzNS9vcmlnaW5hbF9kZGQyOTY4Yjg1M2QyYjRiMzYxYzRlNTMxZDhhMWM2My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTMxMDE3OS9vcmlnaW5hbF9kNDQxNGJiOTYyZDk1MzgwNTI3NzAxNmQ2ZjFhZGZkMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTMwNzgyNy9vcmlnaW5hbF81N2RjZmEyNjY2NmNlOWEzOTlmNjRhY2Y5MzkyMjdmNy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTI0MTQxNi9vcmlnaW5hbF82ZmJjYTEzMTM1MjU2NTcyMjUyZGZlZDk3ZTc1ZTRjNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTI0MTQxMi9vcmlnaW5hbF9mNjg2OTY3NGY5NzlhYzhmN2FmMjhiYzAyNzZlZGMxMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDQ4NjA5OC9vcmlnaW5hbF9hZGQyNzNiMTBmMGNjNjcxNzNhY2QzNWYxNjRjODMwMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDQ4MzU2NC9vcmlnaW5hbF8zMjBmMmI4MmM4ZjZkZmVjM2M4ODM5MTM0YzM1YjZmYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDI2NTY5NC9vcmlnaW5hbF8wM2IzODlkYmNjYzc1NzNjZmNjOTZjMWVlZWQ3YzZjMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDIzODkzMS9vcmlnaW5hbF9hMjJkYTRmZWUyNGMzMWU4YmZhNTUyNjc4MWVhOWFhNS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDIzODc1OC9vcmlnaW5hbF81ODM1NDVhMjYyNDMwYzJhZTBjYWEzNTYwODA0NTZiMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDIzODc0MC9vcmlnaW5hbF8wOTM5YWJhNjA1Zjc4OTgzZTZhZDAwODllYTQzMzdhMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDIzODU5Mi9vcmlnaW5hbF85NGFiNWQ1OTMxZDFjODA2MjRjM2Y1ZmUzNmViNGY1OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDIzODU1MC9vcmlnaW5hbF9jODllMjg2YjBiMDRhNjM2MTJlNTFlZThmZDY4YTdhYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDIxNTY3OC9vcmlnaW5hbF9jOGVjZjAxNmNkOTFjNWFmOWY1NzczODkwYTU5Nzc4Yy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDA2Mjk2OS9vcmlnaW5hbF83ODMyYjViNzY0MGE5Njg3MDFjYTEyZDU0NDgwNjQ4Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNDA0MTU1MC9vcmlnaW5hbF84MjgwZjkzNDY4NzdhNmEyMWM4YjEyMjk4Y2IxNWFmZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzU5MjM0Mi9vcmlnaW5hbF80MjE4MDRhNmMxYWY2Y2RjNzIxYTg0ODNlNzAwZDY5OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzc4MzQ3Mi9vcmlnaW5hbF8zMTc5MzYxYWNjZjVmYjJmZmI3ZjVhMDYwZjYxMjI3OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzk1ODEyMS9vcmlnaW5hbF85MTAwYmNhNTBkOTUzYmJiMmZhZGRjMTEwNDk1OTg5ZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzkxNzgzMy9vcmlnaW5hbF8yNmE5OGQyNDYxMGIyNDFhMDAyZTA0MTAyYWI1MDA3MC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMzkxNzczMi9vcmlnaW5hbF8xNTI0ZjhkOTFmZmJkYWFjZGU1MGEwNGVjODE4MWY4Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "paragraph": "Make a map"
+        },
+        {
+            "paragraph": "Next, exhaustively document every possible path a user can take on the platform. It doesn’t matter how — you can use a sketchpad or folder full of screenshots. Pay extra attention to the user behaviors you usually ignore, and to these more oblique paths:"
+        },
+        {
+            "paragraph": "Settings page + advanced settings"
+        },
+        {
+            "paragraph": "About pages"
+        },
+        {
+            "paragraph": "Paths that you take to end up on the platform in the first place (for example, from a Google search)"
+        },
+        {
+            "paragraph": "Behaviors that you might take when first creating an account"
+        },
+        {
+            "paragraph": "Advanced search operators or advanced search pages"
+        },
+        {
+            "paragraph": "External tools for searching the platform"
+        },
+        {
+            "paragraph": "External tools for navigating the platform"
+        },
+        {
+            "paragraph": "Sitemaps"
+        },
+        {
+            "paragraph": "Ways that the platform might be navigated “randomly” (has anyone built a random navigator?)"
+        },
+        {
+            "paragraph": "The urls of the pages you visit (does their structure reveal anything that can open doors to navigating by direct url entry?)"
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxOTY0OC9vcmlnaW5hbF84NzE1ZGU5YmQzZmU5ZDg3MjAyNDExMTgtMi1nbzdoNHQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxOTYxMS9vcmlnaW5hbF8xY2JkNGFiNGNkYmVmM2Q0MjAyNDExMTgtMi04OGRzMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxOTU3Mi9vcmlnaW5hbF80ZDU4NzYzYmE1MDAxNGZlMjAyNDExMTgtMi1vd25hdDkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxOTUwMS9vcmlnaW5hbF9mMTg5ZWYwN2FkZDc0Mjg3MjAyNDExMTgtMi15aXdoMzMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxOTQ5Mi9vcmlnaW5hbF82ZDJlMGJmNTU3YThjOWQ5MjAyNDExMTgtMi02a3VnMWwucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxOTQ4Ny9vcmlnaW5hbF80MTUxZmUxNzc2MGFlYjBkMjAyNDExMTgtMi1tcW80NWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzMjMxODU4My9vcmlnaW5hbF8yYTg2NTQzOTE4MDY2MzFkMjAyNDExMTgtMi14cTRjazEucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "paragraph": "Write your own algorithms"
+        },
+        {
+            "paragraph": "Now the fun part! Using your research and your map, write your own algorithms for your platform. These should be a set of simple instructions for a user to take to navigate the platform."
+        },
+        {
+            "paragraph": "The goal should be to uncover some less trodden paths that will help guide your target user to places they wouldn’t otherwise discover. These detours might reveal:"
+        },
+        {
+            "paragraph": "Content outside of your usual location/interests/social network"
+        },
+        {
+            "paragraph": "Content with little engagement"
+        },
+        {
+            "paragraph": "Deleted content"
+        },
+        {
+            "paragraph": "Old, forgotten content"
+        },
+        {
+            "paragraph": "Glitches in the platform"
+        },
+        {
+            "paragraph": "Invisible labor that powers the platform"
+        },
+        {
+            "paragraph": "People misusing the platform"
+        },
+        {
+            "paragraph": "People vandalizing the platform"
+        },
+        {
+            "paragraph": "Anything that typically goes unnoticed"
+        },
+        {
+            "paragraph": "Once you've written your algorithms, have some friends test them out and keep a record of what they find. Iterate; try again. Document the things that feel most surprising or compelling."
+        },
+        {
+            "paragraph": "Release"
+        },
+        {
+            "paragraph": "Resisting the paths most traveled invites us to look at the platforms we use with a critical eye, leading us to new forms of critique, making visible parts of the world and culture that are out of our view, and inspiring entirely new ways of navigating the web."
+        },
+        {
+            "paragraph": "Take Andrew Norman Wilson’s ScanOps, a collection of Google Books screenshots that include the hands of low-paid Google data entry workers, or Chia Amisola’s The Sound of Love, which curates evocative comments on Youtube songs. Then there’s Riley Walz’s Bop Spotter (a commentary on ShotSpotter, gunshot detection microphones often licensed by city governments), a constantly Shazam-ing Android phone hidden on a pole in the Mission district. Or consider my own experiment, IckTok, in which I trained a TikTok account to show me videos I would hate, in order to better understand what it means to confuse engagement with user interest. A similar spirit of inquiry led to The Man Cave Up in the Sky, where, entranced by photos of man caves unearthed by students in my workshop, I attempted to search for a liberatory gender politics within them. Exhausted by Spotify’s constant pandering to their existing tastes, another group of students designed an app specifically focused on discovering new genres of music. Other projects are as unserious as they are evocative, like EyeChat, a Chatroulette clone but only for eyes. There are also full standalone products like Marginalia, a search engine specifically focused on non-commercial content."
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNzYwMjYyMS9vcmlnaW5hbF9kOGU0NDE0ODg0MDQ4NjE4Nzg2ZmU3ZGNkOGE3ZWJiMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNzIxNDQyMC9vcmlnaW5hbF83ZjIzOTM3MjgwOWY4YjVmYWM5ZTA0MzEyNmQyNmNiMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNzEyNzE1NC9vcmlnaW5hbF8zNjY5ZDMwOTZhMTNjNDZkMWNkYWNiM2JjOTlkZjc5Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjcxMDQ3Mi9vcmlnaW5hbF9jMjAyYWQ2Y2QwZjJjY2Y1MGI2YjI3MjQ4OTg1ZjZkMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjQ5ODA2MC9vcmlnaW5hbF80YWQ2MGQ4YmIzZDQ2OGM3ZDI3MjU3NmI5NjdhNTA1Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjQxNTQyNS9vcmlnaW5hbF8wZDI0OTYyMWI4MTk0NzJkODEzNDVjODI2NmEwYjUwNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjQxNTI5NS9vcmlnaW5hbF9hYTk2MjcwMGVkNjg5MjJjYjVhYTI0Zjk3MGEzMjNlZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjM3NDEwNC9vcmlnaW5hbF9kNWMxZTdkNzg1MTc0MGM2OTQwNmQ0ODY1ZWMxZTJmOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjMzOTQ2Ny9vcmlnaW5hbF83MWI3Mzk0NzI3MjQ2YjMzNTBhYjNlZWViYTQwYmU1Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxNDQxNjc4L29yaWdpbmFsXzJhNjYwODk3YjhiZjY1YTQ0ZTI1YmY4NzJlZjAwMjM1IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwiZmxhdHRlbiI6eyJiYWNrZ3JvdW5kIjp7InIiOjIwMywiZyI6MjAzLCJiIjoyMDN9fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjE3MjY4NS9vcmlnaW5hbF80ZWM4ZjBhMjE3M2MzYTJhMWM2YWY5YWFiMDY0NzQ5Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjE1MzUyOC9vcmlnaW5hbF9lNDMwNmI5ZTZlOWM4ZTkxMDllMmMwNDNhMjdjYzIwZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjA2MjU3MS9vcmlnaW5hbF8yYWVlMmJiNmQ0MDU4YmQ4ZWIyZTM4NGViMjZjZTZlMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjA2MjU2Ni9vcmlnaW5hbF9mZTU0NWQ5YmI2NzZiNzdiNjA0MTE2ODhiYTkxOWQ1Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNjAwODk1MS9vcmlnaW5hbF8yMDJhYWZkNTc5MzM3OGRkOThlZjM5OWQzYTM5ZWIwOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTU2ODk5Ni9vcmlnaW5hbF8wZGI1ZTBiMzRkYTJmN2ZlMTJiYTZkMjhjYTI5YTVjYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTUwMTM0MC9vcmlnaW5hbF81M2IxMjE0N2NhYzZmNjQwMmU5OTI2MmVjYzE0MzNhZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTMxNDgxMy9vcmlnaW5hbF9lNjM2ZDEyZDJlMjBmMzU1ODcyMjVhZjIwN2YyMWY0ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTI4OTAxOC9vcmlnaW5hbF8yMDc0NmI0ZmYyNzVhYTAwZjdjNTI2NTc2YTM5OWFiOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTA0MzYzOS9vcmlnaW5hbF84M2NhNmU5MTc4NDJhMTJkMGJkMjNjNjU1ZjU4OGQ2Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "image_link": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzNTA0MzYzNi9vcmlnaW5hbF84OTViYWRiODY4NDdkYzIxNjA2NWUyMmMwNTYwODVmNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+            "caption": ""
+        },
+        {
+            "paragraph": "**"
+        },
+        {
+            "paragraph": "Not all of these projects follow the exact set of methods described, but they all represent a level of attention and intentionality that navigating the internet doesn’t usually afford."
+        },
+        {
+            "paragraph": "If the most common metaphor for algorithms is following a recipe, then the goal shouldn’t be to stop making food, but to become so attuned to the shape of cooking that we can make substitutions and eventually, our own recipes. If we’re bold enough to question the maps we've been given, we may discover a world richer, stranger, and more alive than anything an algorithm could drop at our feet."
+        },
+        {
+            "paragraph": "Elan Ullendorff is a designer, writer, and educator based in Philadelphia. He currently serves as Director of Product at The Marshall Project and teaches at both Penn Engineering and the School for Poetic Computation. He writes a newsletter called Escape the Algorithm about reclaiming attention and finding a more human side of the internet."
+        }
+    ],
+    "url": "https://www.are.na/editorial/so-you-want-to-escape-the-algorithm",
+    "yt_references": []
+}

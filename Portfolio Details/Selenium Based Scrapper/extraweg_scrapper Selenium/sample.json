@@ -1,0 +1,74 @@
+[
+    {
+        "details": {
+            "credits": {
+                "Client": "SEAT",
+                "Agency": "Soupfilm",
+                "Production Company": "Sehsucht, Berlin",
+                "Art Director": "Oliver Latta"
+            },
+            "category": "commercial"
+        },
+        "content": [
+            {
+                "paragraph": "The New SEAT Arona is designed for drivers looking for a sense of excitement, distinction and functionality. People who know that age is just a number, not an outlook on life. This is a car that fits their lifestyle, that works in boththe city and the countryside, that is loaded with technology and that is comfortable, spacious, safe, dynamic, customisable, and all-purpose.From gently moving condoms to exploding Guitars or railing sardines, we put the focus on creating something colorful, fitting with the Spot and the personality of the car."
+            },
+            {
+                "paragraph": "CG vignettes for a TV spot to introduce the SEAT Arona, the Spanish brand latest car model."
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_94f7a9e8bb1b4f2ebf3d5d79fe4a0083f000.jpg/v1/fill/w_468,h_263,q_90,enc_avif,quality_auto/827c6d_94f7a9e8bb1b4f2ebf3d5d79fe4a0083f000.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_8f12efc933b546f3b072ca9585ffb402~mv2.jpg/v1/fit/w_960,h_895,q_90,enc_avif,quality_auto/827c6d_8f12efc933b546f3b072ca9585ffb402~mv2.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_cacf37816e904b77b32333b5196a5f43~mv2.jpg/v1/fit/w_960,h_641,q_90,enc_avif,quality_auto/827c6d_cacf37816e904b77b32333b5196a5f43~mv2.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_e65dedec53204f098161207162ba42b8f000.jpg/v1/fill/w_467,h_263,q_90,enc_avif,quality_auto/827c6d_e65dedec53204f098161207162ba42b8f000.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_ab9cafe84b904fe1b6932d73f2392022~mv2.jpg/v1/fit/w_960,h_540,q_90,enc_avif,quality_auto/827c6d_ab9cafe84b904fe1b6932d73f2392022~mv2.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_100f6f856262402e833e35a44451df06f000.jpg/v1/fill/w_467,h_263,q_90,enc_avif,quality_auto/827c6d_100f6f856262402e833e35a44451df06f000.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_fad3d394061447dd9092f259c497123f~mv2.jpg/v1/fit/w_960,h_540,q_90,enc_avif,quality_auto/827c6d_fad3d394061447dd9092f259c497123f~mv2.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_b4b915dd45c04355a0d6a3809a891581f000.jpg/v1/fill/w_467,h_263,q_90,enc_avif,quality_auto/827c6d_b4b915dd45c04355a0d6a3809a891581f000.jpg",
+                "caption": ""
+            },
+            {
+                "image_link": "https://static.wixstatic.com/media/827c6d_0aa9c2701faf42e985d476639e447bf6~mv2.jpg/v1/fit/w_960,h_641,q_90,enc_avif,quality_auto/827c6d_0aa9c2701faf42e985d476639e447bf6~mv2.jpg",
+                "caption": ""
+            }
+        ],
+        "video_references": [
+            "https://vimeo.com/extraweg",
+            "https://www.youtube.com/channel/UC4PE5eJWG60sbajRtvdL3jQ"
+        ],
+        "url": "https://www.extraweg.com/commercials/seat-%2F-arona"
+    },
+    {
+        "details": {
+            "heading": "Sting into my eyes",
+            "tags": "#eye #destroy #hand #eyeball #cgi #satisfying #houdini #extraweg",
+            "category": "artwork"
+        },
+        "content": [],
+        "video_references": [
+            "https://video.wixstatic.com/video/827c6d_fe3aefdd38a0433ebcbeca6965508bb2/720p/mp4/file.mp4"
+        ],
+        "url": "https://www.extraweg.com/artworks/sting-into-my-eyes"
+    }
+]

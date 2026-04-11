@@ -1,0 +1,398 @@
+
+--- EXTRACTED: Portfolio Details\Android Automation bot\Instagram Search Bot LDPlayer\Heading and detial.docx ---
+Instagram Automation Bot
+
+The Instagram Automation Bot is designed to streamline interactions on the Instagram platform while focusing on capturing and communicating with users via email. Here's a comprehensive overview of its capabilities:
+
+Core Actions:
+
+Automated Login:
+
+The bot initializes by launching the Instagram application on specified Android devices.
+
+It securely logs into Instagram utilizing pre-configured credentials, ensuring seamless access without manual input.
+
+Username Search and Email Capture:
+
+By navigating through the Instagram interface, the bot searches for specific usernames from a predefined list.
+
+It identifies and extracts email addresses linked to these profiles, storing them systematically in a CSV file for easy reference.
+
+Email Outreach (Hypothetical Extension):
+
+Building upon its email capture functionality, the bot can be enhanced to send personalized emails to the captured email addresses.
+
+Using email APIs, it automates outreach efforts through customizable templates, facilitating communication with target users directly from the application.
+
+Error Handling and Logging:
+
+Equipped with robust error handling mechanisms, the bot logs any interaction issues for detailed review, aiding in troubleshooting and further development.
+
+In case of errors during username searching or other activities, the bot automatically attempts retries, minimizing disruptions.
+
+By combining these functionalities, the bot effectively automates the process of collecti
+
+Error on Portfolio Details\N8n Automations\ai calling lead n8n\AI Calling Lead Generation Agent – Workflow Overview.pdf: p is not a function
+
+Error on Portfolio Details\N8n Automations\appointment booking n8n\Appointment Booking Voice AI Agent – Workflow Overview.pdf: p is not a function
+
+Error on Portfolio Details\N8n Automations\blog automation n8n\_Blogs Automation with JTL WebApp – Workflow Overview.pdf: p is not a function
+
+Error on Portfolio Details\N8n Automations\email lead n8n\📧 Email Leads Automations with Advanced Personalization – Workflow Overview.pdf: p is not a function
+
+Error on Portfolio Details\N8n Automations\meme n8n\🎭 Meme Generator Workflow – Overview.pdf: p is not a function
+
+Error on Portfolio Details\N8n Automations\reddit post lead generation\🔄 Reddit Content Filter & Notifier Workflow – Overview.pdf: p is not a function
+
+--- EXTRACTED: Portfolio Details\Request Webs Scrapper\Logoed_Scrapper Request\heading and Description.docx ---
+Project: Logoed Scrapper
+
+Overview The Logoed Scrapper is an automated data extraction tool designed to collect and structure content from Logoed’s project showcase pages. Using browser automation, it gathers detailed metadata and interleaved content blocks, including images, project descriptions, and video references, exporting them into a clean, developer-friendly JSON format.
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Author
+
+Date
+
+Categories and Tags
+
+Thumbnail image
+
+Content Parsing Extracts rich content blocks including:
+
+Inline paragraphs (project descriptions, quotes)
+
+Images (with captions)
+
+Video references (e.g., MP4 links)
+
+Formatted Output Stores results as a deeply structured JSON file, organizing all extracted data for each project in a human-readable and programmatically usable format.
+
+Interface and Operation This scraper is a script-based tool, typically run via the command line. It operates on specified Logoed project URLs and saves JSON outputs to the local filesystem.
+
+Inputs:
+
+Logoed project page URLs
+
+Output file path
+
+Outputs:
+
+Structured JSON file containing all project metadata and content
+
+Technical Highlights
+
+Selenium-based automation for dynamic content parsing
+
+Handles both images and video references
+
+Interleaves paragraphs and images for accurate content representation
+
+Output Snapshot Example of extracted fields:
+
+"title" → Pannonia Group
+
+"author" → Mikie
+
+"date" → 3 November 2023
+
+"content" → Interleave
+
+--- EXTRACTED: Portfolio Details\Request Webs Scrapper\Lovely package\Heading and Description.docx ---
+Project: Lovely Package Scraper
+
+Overview The Lovely Package Scraper is a Selenium-powered tool for extracting and structuring packaging design articles from Lovely Package. It automates the collection of article metadata, design details, and rich content blocks, outputting them as organized JSON for further analysis or display.
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Author
+
+Date
+
+Category
+
+Thumbnail image
+
+Design info (designer, country, font, etc.)
+
+Content Parsing Extracts content blocks including:
+
+Inline paragraphs (project stories, design rationale)
+
+Images (with captions)
+
+Video references (if present)
+
+Formatted Output Exports results as a structured JSON array, with each article’s metadata and content blocks clearly organized.
+
+Interface and Operation Script-based, run via command line, operating on specified article URLs and saving JSON outputs locally.
+
+Inputs:
+
+Lovely Package article URLs
+
+Output file path
+
+Outputs:
+
+Structured JSON file containing all article metadata and content
+
+Technical Highlights
+
+Selenium-based automation for dynamic web content
+
+Handles multiple articles in a single run
+
+Captures both images and detailed design info
+
+Output Snapshot Example of extracted fields:
+
+"title" → Ticketybrew
+
+"author" → Chris Zawada
+
+"category" → Alcoholic Drinks Packaging Design
+
+"design_info" → { Designed by: "Carter Wong", Country: "United Kingdom" }
+
+"content" → Interleaved list of paragraphs and image links with capti
+
+--- EXTRACTED: Portfolio Details\Request Webs Scrapper\visuelle_scraper\Heading and Description.docx ---
+Project: Visuelle Scraper
+
+Overview The Visuelle Scraper is a Selenium-driven tool for extracting and structuring content from Visuelle’s design and podcast showcase pages. It automates the retrieval of article metadata, images, and descriptive content, exporting them into a structured JSON format for easy reuse.
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Date
+
+Categories and Tags
+
+Thumbnail image
+
+Content Parsing Extracts content blocks including:
+
+Inline paragraphs (episode summaries, project descriptions)
+
+Images (with captions)
+
+Video references (e.g., Vimeo links)
+
+Formatted Output Exports results as a structured JSON array, with each entry’s metadata and content blocks clearly organized.
+
+Interface and Operation Script-based, run via command line, operating on specified Visuelle article or episode URLs and saving JSON outputs locally.
+
+Inputs:
+
+Visuelle article or episode URLs
+
+Output file path
+
+Outputs:
+
+Structured JSON file containing all article metadata and content
+
+Technical Highlights
+
+Selenium-based automation for dynamic content
+
+Handles both podcast and design showcase entries
+
+Interleaves images and paragraphs for accurate content representation
+
+Output Snapshot Example of extracted fields:
+
+"title" → Episode 15 Tyler Eide
+
+"date" → 5.05.25
+
+"categories" → [ "Podcast" ]
+
+"content" → Interleaved list of paragraphs and image links with captions
+
+"yt_references" → List of video URLs
+
+--- EXTRACTED: Portfolio Details\Selenium Based Scrapper\Amazon Product Scrapper\Heading and Details.docx ---
+Web Scraping with Selenium: Amazon Product Data Extractor
+
+Description
+
+This project demonstrates a comprehensive web scraping solution using Python and Selenium to extract detailed product information from Amazon. The script automates the extraction of various product attributes including brand name, price, images, colors available, and customer reviews along with their ratings. It is designed to navigate through different product categories, handle dynamic page loading, and manage browser sessions efficiently.
+
+
+
+Key Features
+
+Automated Browser Control: The script utilizes Selenium for browser automation to load pages and interact with web elements dynamically.
+
+Randomized Delays: Introduces random sleep intervals between interactions to mimic human browsing behavior and avoid detection as a bot.
+
+Detailed Data Extraction: Extracts comprehensive product data such as ASIN, title, price, color variations, and customer reviews with ratings.
+
+Robust Error Handling: Implements try-except blocks to handle and log errors during element selection and data extraction.
+
+Efficient Data Management: Each product’s data is saved in JSON format into organized directories classified by categories and subcategories.
+
+Multi-layered Navigation: Navigates through main categories and subcategories, exploring each product listing page and its details page.
+
+Headless Mode Support: Enables headless mode for faster execution without opening a UI, suitable for large-scale data collection tasks.
+
+
+
+T
+
+--- EXTRACTED: Portfolio Details\Selenium Based Scrapper\Arena Selenium\Heading and Description.docx ---
+Project: Are.na Editorial Scraper
+
+Overview
+
+The Are.na Editorial Scraper is a data extraction tool built using Selenium and designed to automate the process of scraping articles from Are.na's editorial pages. It collects structured content — including titles, author info, reference links, images, and full article paragraphs — and exports them into a clean JSON format for further use.
+
+
+
+Features
+
+Structured Data Extraction Parses essential metadata such as:
+
+Title
+
+Author
+
+Date
+
+Categories & Tags
+
+References (like "read the algorithm", etc.)
+
+Content Parsing Extracts rich content blocks including:
+
+Inline paragraphs
+
+Images (with captions)
+
+External references
+
+Formatted Output Stores results as a deeply structured JSON file, organizing all extracted data for each editorial in a human-readable and programmatically usable format.
+
+
+
+Interface & Operation
+
+This scraper is a script-based tool, typically run via the command line. It does not include a graphical interface but operates based on specified input URLs and saves JSON outputs to the local filesystem.
+
+Inputs:
+
+Are.na editorial page URL(s)
+
+Output file path
+
+Outputs:
+
+Structured .json file containing all article metadata and body content
+
+
+
+Technical Highlights
+
+Selenium-Based Automation Navigates and parses dynamic web content on Are.na using headless browser automation.
+
+Image & Caption Handling Collects all <img> elements with corresponding captions for inclusion in exported JSON.
+
+Content Block Classifier Differenti
+
+--- EXTRACTED: Portfolio Details\Selenium Based Scrapper\extraweg_scrapper Selenium\Heading and Description.docx ---
+Project: Extraweg Portfolio Scraper
+
+Overview
+
+The Extraweg Portfolio Scraper is an automated data collection tool developed using Selenium. It extracts detailed metadata, multimedia content, and structural information from project pages on the Extraweg website. The final output is stored as a structured JSON file that includes project details, image content, video references, and URLs for further use in creative archives or media catalogs.
+
+
+
+Features
+
+Project Metadata Extraction Captures credits and classification data for each item including:
+
+Client
+
+Agency
+
+Production Company
+
+Art Director
+
+Category
+
+Tags
+
+Headings (if present)
+
+Content Collection Gathers all visual elements associated with a project:
+
+Multiple high-resolution image links
+
+Optional image captions
+
+Paragraphs describing the project (if available)
+
+Video Reference Scraping Identifies and collects embedded or linked video content such as:
+
+Vimeo links
+
+YouTube channels
+
+Hosted video files (e.g., .mp4 from Wix)
+
+Multiple Project Handling Supports extraction from various project categories like "commercial" and "artwork", ensuring that empty content blocks (like missing images or text) are still handled gracefully.
+
+
+
+Interface & Operation
+
+This scraper is a command-line-based utility with clearly defined input-output behavior.
+
+Input:
+
+List of Extraweg project URLs
+
+Output:
+
+A JSON file storing an array of complete project objects, one per entry
+
+
+
+Technical Highlights
+
+Selenium-Based Page Interaction Uses b
+
+--- EXTRACTED: Portfolio Details\Social Media Automation\Instagram Unfollow Bot\heading adn  detail.docx ---
+Instagram Unfollow Bot Application
+
+This application is an automated solution designed to help users efficiently manage their Instagram following list. Utilizing the power of Selenium and the PyQt framework, the bot allows users to unfollow a batch of Instagram accounts specified in a CSV file. The user-friendly interface lets you configure daily and hourly limits, ensuring compliance with Instagram's restrictions. Featuring a smart login detection mechanism, the application pauses to request user input for manual authentication when needed. The progress and activity logs provide users with real-time updates on the bot's operations, enhancing usability and transparency.
+
+Skills Demonstrated
+
+PyQt GUI Development: Building a responsive and interactive graphical user interface with PyQt5.
+
+Multithreading in Python: Employing QThread for running tasks concurrently without blocking the main UI thread.
+
+
+
+Web Automation with Selenium: Automating browser actions using SeleniumBase for Instagram interactions.
+
+Data Management with CSV and JSON: Reading from and writing to CSV files for user data, and utilizing JSON for maintaining operational stats.
+
+Exception Handling and Logging: Implementing robust error handling and logging mechanisms to ensure smooth operation and debugging capabilities
