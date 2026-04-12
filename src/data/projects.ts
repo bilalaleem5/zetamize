@@ -15,6 +15,74 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "ZetaFin",
+    category: "N8n Automation",
+    shortDesc: "An AI-powered Financial Intelligence System for real-time Profit & Loss tracking.",
+    fullDesc: `Know exactly where every rupee goes.
+
+ZetaFin provides real-time Profit & Loss tracking, client management, vendor management, expense monitoring, employee tracking, and net profit estimation — all in one unified platform. It also includes automated auditing and intelligent financial insights to help you manage your entire business operations efficiently.`,
+    tags: ["Financial AI", "Profit Tracking", "Automation"],
+    views: 1250, rating: 5.0, time: "6 weeks",
+    image: "/portfolio-assets/zetafin.jpeg",
+    stats: { label: "AUDITING", val: "Automated" },
+    metric: "Finance Intelligence"
+  },
+  {
+    title: "ZetAI",
+    category: "Voice AI",
+    shortDesc: "An AI-powered Voice Agent that executes tasks based on spoken commands.",
+    fullDesc: `ZetAI is a smart voice-driven assistant that executes tasks based on your spoken commands. You can instruct it to perform research, send messages, read emails, and handle various operational tasks automatically — acting as your personal AI execution agent.`,
+    tags: ["Voice AI", "Personal Assistant", "Task Automation"],
+    views: 1800, rating: 4.9, time: "8 weeks",
+    image: "/portfolio-assets/zetaai assistant.png",
+    stats: { label: "LATENCY", val: "Ultra-Low" },
+    metric: "Voice Command Engine"
+  },
+  {
+    title: "ZetaAgent",
+    category: "Autonomous Agents",
+    shortDesc: "Autonomous AI Agent System for lead generation and business growth.",
+    fullDesc: `ZetaAgent is a multi-agent system where you simply define your business type, and the system automatically builds and deploys intelligent agents for you. These agents independently perform lead generation, target research, outreach, and follow-ups — creating a fully automated business growth engine.`,
+    tags: ["Multi-Agent", "Lead Gen", "Scaling"],
+    views: 2100, rating: 5.0, time: "10 weeks",
+    image: "/portfolio-assets/zetaagent.jpeg",
+    stats: { label: "OUTREACH", val: "Fully Auto" },
+    metric: "Growth Engine"
+  },
+  {
+    title: "Vehicle AI Listing System",
+    category: "AI Marketplace",
+    shortDesc: "AI-powered vehicle marketplace platform with automated scheduling and safety.",
+    fullDesc: `This system allows users to list vehicles for sale while buyers can book meetings directly with sellers. It includes AI-driven automation for scheduling, chatbot support, WhatsApp integration, and fake listing detection to ensure trust and safety in transactions.`,
+    tags: ["Marketplace", "Fraud Detection", "Scheduling"],
+    views: 1550, rating: 4.8, time: "7 weeks",
+    image: "/portfolio-assets/vehiclewaly.jpeg",
+    stats: { label: "TRUST_SCORE", val: "AI-Verified" },
+    metric: "Marketplace OS"
+  },
+  {
+    title: "Facebook Marketplace Posting Bot",
+    category: "Social Automation",
+    shortDesc: "Automated bulk listing system for Facebook Marketplace with anti-ban tech.",
+    fullDesc: `This bot enables users to post multiple listings automatically on Facebook Marketplace. It is designed with advanced optimization techniques to minimize the risk of account bans while maximizing posting efficiency and reach.`,
+    tags: ["Bulk Posting", "Anti-Ban", "FB Automation"],
+    views: 940, rating: 4.7, time: "4 weeks",
+    image: "/portfolio-assets/faceboook marketplace listing bot.png",
+    stats: { label: "POST_SPEED", val: "Optimized" },
+    metric: "FB Scaling Engine"
+  },
+  {
+    title: "Message Reply Bot",
+    category: "Social Automation",
+    shortDesc: "AI-powered customer communication automation for marketplace inquiries.",
+    fullDesc: `This bot reads incoming customer messages from marketplace listings and responds instantly with intelligent, context-aware replies within seconds. It ensures fast communication, improved engagement, and higher conversion rates through automated responses.`,
+    tags: ["Fast Reply", "Context AI", "Engagement"],
+    views: 1120, rating: 4.9, time: "3 weeks",
+    image: "/portfolio-assets/FB marketplace reply bot.png",
+    stats: { label: "RESPONSE_TIME", val: "< 10s" },
+    metric: "Conversion Layer"
+  },
+  {
     title: "Aixen AI",
     category: "N8n Automation",
     shortDesc: "Unified AI Communication & Lead Management System powered by LLMs.",

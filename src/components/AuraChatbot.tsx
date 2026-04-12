@@ -36,7 +36,7 @@ const AuraChatbot = () => {
   const categories = [
     {
       id: "SERVICE_RETAIL",
-      keywords: ["restu", "food", "dining", "hospitality", "barber", "shop", "salon", "retail", "store"],
+      keywords: ["restu", "restaurant", "food", "dining", "hospitality", "barber", "shop", "salon", "retail", "store"],
       response: "Service and retail automation is where ZetaMize excels. We architect digital staff agents, AI-powered inventory tracking, and seamless POS/booking integrations to maximize your business flow.",
       more: "Beyond POS, we implement 'Protocol One' for automated scheduling and 'Protocol Two' for predictive inventory management, reducing waste by up to 40%."
     },
@@ -48,7 +48,7 @@ const AuraChatbot = () => {
     },
     {
       id: "ECOMMERCE",
-      keywords: ["ecom", "online store", "shopify", "product", "inventory", "sales"],
+      keywords: ["ecom", "online store", "shopify", "product", "inventory", "sales", "amazon"],
       response: "E-commerce is a primary ZetaMize field. From autonomous customer support agents to real-time inventory-to-sales synchronization, we build the engine of the modern digital storefront.",
       more: "We specialize in 'Agentic Upselling'—AI agents that understand customer behavior and proactively manage lead qualification in your CRM."
     },
@@ -60,15 +60,33 @@ const AuraChatbot = () => {
     },
     {
       id: "SALES_CRM",
-      keywords: ["crm", "sales", "lead", "scrap", "customer", "outreach"],
+      keywords: ["crm", "sales", "lead", "scrap", "customer", "outreach", "cold email", "whatsapp"],
       response: "Lead acquisition and CRM synchronization are our core protocols. We build stateful scrapers and Python-based agents that qualify leads and sync data in real-time across your stack for maximum conversion.",
       more: "We support integrations with Salesforce, HubSpot, and custom SQL databases, ensuring no lead is ever lost in the data silo."
     },
     {
-      id: "FINANCE",
-      keywords: ["fininc", "finance", "invoice", "bill", "money", "accounting"],
-      response: "Precision financial automation is a ZetaMize specialty. We architect systems for automated invoicing, multi-channel tracking, and zero-latency data reconciliation to eliminate operational drag.",
-      more: "Our 'Secure Flow' protocol ensures all financial data is processed with military-grade encryption and 99.9% reconciliation accuracy."
+      id: "ZETAFIN",
+      keywords: ["zetafin", "zeta fin", "finance", "profit", "loss", "p&l", "accounting", "money", "rupee", "expense"],
+      response: "ZetaFin is our AI Financial Intelligence System. It tracks Profit & Loss, expenses, and employee metrics in real-time — helping you know exactly where every rupee goes.",
+      more: "It includes automated auditing and net profit estimation, acting as a unified platform for efficient business operations."
+    },
+    {
+      id: "ZETAI",
+      keywords: ["zetai", "zeta ai", "zetaai", "voice", "assistant", "call", "jarvis", "speak", "voice agent"],
+      response: "ZetAI is our voice-driven AI execution agent. It can research topics, send messages, and handle emails based on your spoken commands.",
+      more: "It acts as a personal operational assistant, executing tasks automatically through a smart voice interface."
+    },
+    {
+      id: "ZETAAGENT",
+      keywords: ["zetaagent", "zeta agent", "autonomous", "system", "growth", "engine", "multi agent"],
+      response: "ZetaAgent is an autonomous multi-agent system. Just define your business, and it builds/deploys agents for lead gen, research, and outreach.",
+      more: "It independently performs lead generation and follow-ups, creating a fully automated business growth engine."
+    },
+    {
+      id: "MARKETPLACE",
+      keywords: ["fb", "facebook", "marketplace", "listing", "bot", "auto post", "reply", "vehicle", "marketplace bot"],
+      response: "We offer powerful Marketplace automation, including FB bulk listing bots and AI-powered reply agents for instant customer engagement.",
+      more: "This includes our Vehicle AI Listing System which filters fake listings and automates meeting scheduling between buyers and sellers."
     },
     {
       id: "AURA_PROTOCOLS",
@@ -78,50 +96,83 @@ const AuraChatbot = () => {
     },
     {
       id: "ABOUT_ZETAMIZE",
-      keywords: ["zetamize", "background", "who", "history", "about", "mission", "background"],
-      response: "ZetaMize is a senior engineering collective. We represent a new era in autonomous business intelligence, focusing on high-density automation that replaces manual rot with neural speed.",
-      more: "You can find our full technical evolution and roadmap on our /about page. We've scaled from 1 to 7 major milestones in under 2 years."
-    },
-    {
-      id: "PORTFOLIO",
-      keywords: ["project", "work", "portfolio", "example", "client", "case study"],
-      response: "We've deployed massive-scale scrapers, autonomous CRM syncs, and custom AI agents. You should check out our /portfolio page for a full gallery of our technical proofs.",
-      more: "Our recent high-impact project involved a 100-page-per-minute stateful scraper for global automotive markets."
+      keywords: ["zetamize", "zeta mize", "who are you", "what is this", "history", "about", "mission", "background", "company", "team", "services", "what you do", "offer", "package"],
+      response: "ZetaMize is a senior engineering collective dedicated to replacing manual rot with neural speed. We build high-density automation systems, AI agents, and custom technical infrastructure.",
+      more: "Founded by technical architects, we specialize in Finance (ZetaFin), Voice AI (ZetAI), and Autonomous Growth Engines. We've scaled across multiple industries in under 2 years."
     }
   ];
 
+  const suggestedTopics = [
+    "Tell me about ZetaFin",
+    "How does ZetAI work?",
+    "Show me Portfolio",
+    "Lead Gen Automation"
+  ];
+
   const getBotResponse = (input: string): string => {
-    const text = input.toLowerCase();
+    const text = input.toLowerCase().trim();
+    if (!text) return "Please provide an input for analysis.";
+
+    // Handle Greeting
+    if (text.match(/^(hi|hello|hey|greetings|aoa|salam)/)) {
+      return "Greetings. ZetaMize systems are online. I can architect solutions for Finance (ZetaFin), Voice AI (ZetAI), or General Automation. What protocol shall we initiate?";
+    }
     
     // Handle "Tell me more" / "More"
-    if ((text === "more" || text.includes("tell me more") || text.includes("explain")) && lastTopic) {
+    if ((text === "more" || text.includes("tell me more") || text.includes("explain") || text.includes("detail")) && lastTopic) {
       const topic = categories.find(c => c.id === lastTopic);
       if (topic) {
         return `Extending Protocol Analysis... ${topic.more}`;
       }
     }
 
+    const words = text.split(/\s+/);
     let bestCategory = null;
-    let maxMatches = 0;
+    let maxScore = 0;
 
     for (const cat of categories) {
-      const matchCount = cat.keywords.filter(k => text.includes(k)).length;
-      if (matchCount > maxMatches) {
-        maxMatches = matchCount;
+      let catScore = 0;
+      for (const keyword of cat.keywords) {
+        const k = keyword.toLowerCase();
+        
+        // Exact match in the whole text (High Weight)
+        if (text === k || text === `what is ${k}` || text === `who is ${k}` || text === `tell me about ${k}`) {
+           catScore += 100;
+        }
+        
+        // Keyword as a distinct word in the input
+        if (words.includes(k)) {
+          catScore += 50;
+        } else if (text.includes(k)) {
+          // Substring match
+          catScore += 20;
+        } else if (k.length > 4 && text.length > 4) {
+          // Partial/Prefix match
+          const prefix = k.substring(0, Math.floor(k.length * 0.8));
+          if (text.includes(prefix)) {
+            catScore += 5;
+          }
+        }
+      }
+
+      if (catScore > maxScore) {
+        maxScore = catScore;
         bestCategory = cat;
       }
     }
 
-    if (bestCategory && maxMatches > 0) {
+    if (bestCategory && maxScore >= 20) {
       setLastTopic(bestCategory.id);
       return bestCategory.response;
     }
 
-    if (text.includes("hello") || text.includes("hi") || text.includes("hey")) {
-      return "Greetings. ZetaMize is online and synchronized. I'm ready to analyze your technical requirements. What business challenge can we solve today?";
+    // Direct Portfolio/Contact redirection
+    if (text.includes("port") || text.includes("work") || text.includes("project")) {
+       setLastTopic("PORTFOLIO");
+       return "I have multiple technical proofs available. You can explore our full /portfolio to see ZetaFin, ZetAI, and our advanced scrapers in action.";
     }
 
-    return "Input analyzed. While I don't have a specific protocol for that phrase yet, our architects specialize in complex automation, Logistics, Finance, and AI-Systems. Would you like to initiate a formal briefing?";
+    return "Input analyzed. While I don't have a specific protocol for that phrase yet, I am currently specialized in ZetaFin (Finance), ZetAI (Voice), and Autonomous Agents. Check our /portfolio for more.";
   };
 
   const handleSend = () => {
@@ -202,18 +253,40 @@ const AuraChatbot = () => {
                        : "bg-primary/20 border-primary/40 text-white rounded-tr-none font-bold"
                    }`}>
                      {m.text}
-                     {m.sender === "bot" && m.id !== "1" && (
-                        <div className="mt-4 pt-4 border-t border-white/10">
+                     {m.sender === "bot" && (
+                        <div className="mt-4 pt-4 border-t border-white/10 flex flex-wrap gap-2">
                           <Link to="/contact" onClick={() => setIsOpen(false)} className="flex items-center gap-2 text-[10px] font-mono text-primary font-black uppercase tracking-tighter hover:gap-3 transition-all">
-                             Initiate Technical Briefing <ChevronRight size={12} />
+                             Contact <ChevronRight size={12} />
+                          </Link>
+                          <Link to="/portfolio" onClick={() => setIsOpen(false)} className="flex items-center gap-2 text-[10px] font-mono text-primary/60 font-black uppercase tracking-tighter hover:text-primary transition-all">
+                             View Work <ChevronRight size={12} />
                           </Link>
                         </div>
                      )}
                    </div>
                  </motion.div>
                ))}
+               
+               {/* Suggestions */}
+               {messages.length < 5 && !isTyping && (
+                  <div className="flex flex-wrap gap-2 relative z-10 px-2 mt-4">
+                    {suggestedTopics.map((topic) => (
+                      <button
+                        key={topic}
+                        onClick={() => {
+                          setInputValue(topic);
+                          setTimeout(() => handleSend(), 100);
+                        }}
+                        className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-[10px] font-mono text-primary/70 hover:bg-primary/10 hover:text-primary transition-all uppercase tracking-widest"
+                      >
+                        {topic}
+                      </button>
+                    ))}
+                  </div>
+               )}
+
                {isTyping && (
-                 <div className="flex justify-start">
+                 <div className="flex justify-start relative z-10">
                    <div className="bg-white/5 border border-white/10 p-4 rounded-2xl rounded-tl-none flex gap-1">
                      <motion.div animate={{ opacity: [0.3, 1, 0.3] }} transition={{ repeat: Infinity, duration: 1 }} className="w-1.5 h-1.5 rounded-full bg-primary" />
                      <motion.div animate={{ opacity: [0.3, 1, 0.3] }} transition={{ repeat: Infinity, duration: 1, delay: 0.2 }} className="w-1.5 h-1.5 rounded-full bg-primary" />

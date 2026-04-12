@@ -7,9 +7,9 @@ import { projects, Project } from "../../data/projects";
 import ProjectModal from "../ProjectModal";
 
 const featuredProjects = projects.filter(p => [
-  "Aixen AI",
-  "Clozr AI",
-  "AI Calling Lead Generation Agent – Workflow Overview"
+  "ZetaFin",
+  "ZetAI",
+  "ZetaAgent"
 ].includes(p.title));
 
 const BorderBeam = ({ duration = 12, size = 150, delay = 0 }) => {

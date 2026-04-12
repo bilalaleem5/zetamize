@@ -5,7 +5,7 @@ import PageWrapper from "../components/PageWrapper";
 import { projects, Project } from "../data/projects";
 import ProjectModal from "../components/ProjectModal";
 
-const filters = ["All", "Request Scraping", "Selenium Scraping", "Social Automation", "N8n Automation"];
+const filters = ["All", "Voice AI", "Autonomous Agents", "AI Marketplace", "Request Scraping", "Selenium Scraping", "Social Automation", "N8n Automation"];
 
 const PortfolioPage = () => {
   const [active, setActive] = useState("All");
