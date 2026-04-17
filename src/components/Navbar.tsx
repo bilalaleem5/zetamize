@@ -9,7 +9,7 @@ const links = [
   { name: "Services", path: "/#services" },
   { name: "Technologies", path: "/#technologies" },
   { name: "Portfolio", path: "/portfolio" },
-  { name: "Blog", path: "/blog" },
+  { name: "Contact", path: "/contact" },
 ];
 
 const Navbar = () => {

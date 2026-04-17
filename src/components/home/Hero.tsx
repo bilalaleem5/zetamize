@@ -166,7 +166,7 @@ const Hero = () => {
 
           {/* Staggered keywords */}
           <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 mb-4 text-lg md:text-xl">
-            {["Automate", "Scale", "Dominate"].map((word, i) => (
+            {["Automate", "Elevate", "Optimize"].map((word, i) => (
               <motion.span
                 key={word}
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -268,9 +268,9 @@ const Hero = () => {
                   { text: "from zetamize import intelligence", color: "text-foreground", highlights: [{ text: "from", color: "text-primary" }, { text: "import", color: "text-primary" }] },
                   { text: "" },
                   { text: "workflow = automate(business_ops)", color: "text-foreground" },
-                  { text: "result = scale(workflow)", color: "text-foreground" },
+                  { text: "result = elevate(workflow)", color: "text-foreground" },
                   { text: "" },
-                  { text: "return dominate(result)", color: "text-foreground", highlights: [{ text: "return", color: "text-primary" }] },
+                  { text: "return optimize(result)", color: "text-foreground", highlights: [{ text: "return", color: "text-primary" }] },
                 ]}
               />
             </div>

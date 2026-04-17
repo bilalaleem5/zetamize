@@ -181,21 +181,23 @@ const PortfolioPage = () => {
             </h1>
           </motion.div>
 
-          {/* Sticky Filter Bar */}
-          <div className="sticky top-24 z-40 mb-12 p-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl flex flex-wrap gap-2 shadow-2xl">
-            {filters.map((f) => (
-              <button
-                key={f}
-                onClick={() => setActive(f)}
-                className={`px-6 py-2 rounded-xl font-mono text-[10px] tracking-widest uppercase font-bold transition-all duration-300 ${
-                  active === f
-                    ? "bg-primary text-primary-foreground shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
-                    : "text-muted-foreground hover:bg-white/5 hover:text-foreground"
-                }`}
-              >
-                {f}
-              </button>
-            ))}
+          {/* Static Filter Grid for Mobile & Flex for Desktop */}
+          <div className="sticky top-24 z-40 mb-12">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap gap-3 p-1">
+              {filters.map((f) => (
+                <button
+                  key={f}
+                  onClick={() => setActive(f)}
+                  className={`px-4 py-3 rounded-xl font-mono text-[10px] tracking-widest uppercase font-black transition-all duration-300 border ${
+                    active === f
+                      ? "bg-primary text-primary-foreground border-primary shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+                      : "bg-white/5 text-muted-foreground border-white/10 hover:border-primary/50 hover:text-foreground"
+                  }`}
+                >
+                  {f}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Grid Layout */}
