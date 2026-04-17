@@ -1,11 +1,148 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Eye, Star, Clock, X } from "lucide-react";
+import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { ArrowUpRight, Star, Eye, Search, Filter } from "lucide-react";
 import PageWrapper from "../components/PageWrapper";
 import { projects, Project } from "../data/projects";
 import ProjectModal from "../components/ProjectModal";
 
 const filters = ["All", "Voice AI", "Autonomous Agents", "AI Marketplace", "Request Scraping", "Selenium Scraping", "Social Automation", "N8n Automation"];
+
+const BorderBeam = ({ duration = 12, size = 150, delay = 0 }) => {
+  return (
+    <div className="absolute inset-0 pointer-events-none rounded-[inherit] [mask-image:linear-gradient(black,black),linear-gradient(black,black)] [mask-clip:content-box,padding-box] [mask-composite:intersect]">
+      <motion.div
+        animate={{
+          offsetDistance: ["0%", "100%"],
+        }}
+        transition={{
+          duration,
+          repeat: Infinity,
+          ease: "linear",
+          delay,
+        }}
+        style={{
+          offsetPath: "rect(0 auto auto 0 round 24px)",
+          position: "absolute",
+          aspectRatio: "1/1",
+          width: `${size}px`,
+          height: "2px",
+          background: "linear-gradient(to right, transparent, hsl(var(--primary)), transparent)",
+        }}
+      >
+        <div className="absolute inset-0 bg-primary/20 blur-[2px] rounded-full animate-pulse" />
+      </motion.div>
+    </div>
+  );
+};
+
+const PrimeCard = ({ project, index, onClick }: { project: Project; index: number; onClick: () => void }) => {
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  const mouseXSpring = useSpring(x);
+  const mouseYSpring = useSpring(y);
+
+  const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["15deg", "-15deg"]);
+  const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-15deg", "15deg"]);
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const width = rect.width;
+    const height = rect.height;
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+    const xPct = mouseX / width - 0.5;
+    const yPct = mouseY / height - 0.5;
+    x.set(xPct);
+    y.set(yPct);
+  };
+
+  const handleMouseLeave = () => {
+    x.set(0);
+    y.set(0);
+  };
+
+  return (
+    <motion.div
+      layout
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.9 }}
+      transition={{ duration: 0.5, delay: index * 0.05 }}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      onClick={onClick}
+      style={{
+        rotateX,
+        rotateY,
+        transformStyle: "preserve-3d",
+      }}
+      className="cursor-pointer group relative h-[500px] rounded-[24px] border border-primary/20 bg-[#080A10] overflow-hidden flex flex-col hover:border-primary/60 transition-all duration-500 shadow-2xl"
+    >
+      <BorderBeam duration={20} size={300} delay={index * 0.5} />
+
+      <div style={{ transform: "translateZ(20px)" }} className="relative h-1/2 overflow-hidden border-b border-white/5">
+        <img 
+          src={project.image} 
+          alt={project.title} 
+          loading="lazy"
+          className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 transform-gpu"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#080A10] via-transparent to-transparent opacity-90" />
+        
+        <motion.div
+          className="absolute inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent z-20"
+          animate={{ top: ["0%", "100%", "0%"] }}
+          transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+        />
+
+        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+          <div className="px-6 py-2 bg-primary text-primary-foreground font-mono text-[10px] font-bold tracking-[0.2em] rounded-full flex items-center gap-2 shadow-2xl">
+            DETAILS <Eye size={14} />
+          </div>
+        </div>
+      </div>
+
+      <div style={{ transform: "translateZ(40px)" }} className="p-6 flex flex-col flex-grow relative bg-[#080A10]/80 backdrop-blur-md">
+        <div className="mb-4">
+          <span className="text-primary font-mono text-[9px] tracking-widest uppercase mb-1 block">
+            {project.category}
+          </span>
+          <h3 className="text-xl font-display font-bold text-foreground group-hover:text-primary transition-colors pr-8">
+            {project.title}
+          </h3>
+        </div>
+
+        <p className="text-muted-foreground text-[13px] leading-relaxed mb-6 font-medium line-clamp-2">
+          {project.shortDesc}
+        </p>
+
+        <div className="mt-auto space-y-4">
+          <div className="flex flex-wrap gap-2">
+            {project.tags.slice(0, 3).map((t) => (
+              <span key={t} className="px-3 py-1 bg-white/5 border border-white/5 text-[9px] font-mono text-muted-foreground rounded-lg group-hover:border-primary/30 group-hover:text-primary transition-colors">
+                {t}
+              </span>
+            ))}
+          </div>
+          
+          <div className="pt-4 border-t border-white/5 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] font-mono text-muted-foreground uppercase tracking-widest">
+                Rating:
+              </span>
+              <div className="flex items-center gap-1 text-primary">
+                <Star size={10} fill="currentColor" />
+                <span className="text-[11px] font-bold">5.0</span>
+              </div>
+            </div>
+            <ArrowUpRight size={16} className="text-muted-foreground border border-white/10 rounded p-0.5 group-hover:bg-primary group-hover:text-primary-foreground transition-all" />
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
 
 const PortfolioPage = () => {
   const [active, setActive] = useState("All");
@@ -13,7 +150,6 @@ const PortfolioPage = () => {
   
   const filtered = active === "All" ? projects : projects.filter((p) => p.category === active);
 
-  // Lock body scroll when modal is open
   useEffect(() => {
     if (selectedProject) {
       document.body.style.overflow = "hidden";
@@ -24,75 +160,68 @@ const PortfolioPage = () => {
 
   return (
     <PageWrapper>
-      <section className="pt-32 pb-24 relative min-h-screen">
-        <div className="container mx-auto">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-12">
-            <span className="font-mono text-primary text-sm tracking-[0.2em] mb-4 block">[ PORTFOLIO ]</span>
-            <h1 className="text-5xl md:text-7xl font-display font-bold text-foreground mb-6">
-              Our <span className="text-primary">Work</span>
+      <section className="pt-32 pb-24 relative min-h-screen bg-background overflow-hidden">
+        {/* Dynamic Background */}
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-primary/5 blur-[150px] rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[800px] h-[800px] bg-primary/5 blur-[150px] rounded-full -translate-x-1/2 translate-y-1/2 pointer-events-none" />
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="mb-16"
+          >
+            <div className="flex items-center gap-2 mb-6">
+              <span className="w-12 h-[2px] bg-primary" />
+              <span className="font-mono text-primary text-xs tracking-[0.5em] uppercase font-bold">Portfolio</span>
+            </div>
+            <h1 className="text-6xl md:text-8xl font-display font-bold text-foreground mb-8">
+              The <span className="text-primary italic">Collection.</span>
             </h1>
           </motion.div>
 
-          <div className="flex flex-wrap gap-3 mb-12">
+          {/* Sticky Filter Bar */}
+          <div className="sticky top-24 z-40 mb-12 p-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl flex flex-wrap gap-2 shadow-2xl">
             {filters.map((f) => (
               <button
                 key={f}
                 onClick={() => setActive(f)}
-                className={`px-5 py-2 rounded-full font-mono text-sm transition-all duration-300 ${active === f
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-card border border-border text-muted-foreground hover:border-primary/50 hover:text-primary"
-                  }`}
+                className={`px-6 py-2 rounded-xl font-mono text-[10px] tracking-widest uppercase font-bold transition-all duration-300 ${
+                  active === f
+                    ? "bg-primary text-primary-foreground shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+                    : "text-muted-foreground hover:bg-white/5 hover:text-foreground"
+                }`}
               >
                 {f}
               </button>
             ))}
           </div>
 
-          <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
-            {filtered.map((p, i) => (
-              <motion.div
-                key={p.title}
-                layoutId={`card-${p.title}`}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ delay: i * 0.05 }}
-                onClick={() => setSelectedProject(p)}
-                className="cursor-pointer break-inside-avoid group bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-primary/10"
-              >
-                <div className="h-48 relative overflow-hidden">
-                  <img 
-                    src={p.image} 
-                    alt={p.title} 
-                    loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100 transform-gpu" 
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent/20" />
-                  <span className="absolute top-4 left-4 px-3 py-1 bg-black/60 backdrop-blur-md rounded-full text-primary font-mono text-[10px] tracking-widest border border-primary/20">
-                    [ {p.category.toUpperCase()} ]
-                  </span>
-                  <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100">
-                    <span className="px-4 py-2 bg-primary text-primary-foreground font-bold text-sm rounded-full flex items-center gap-2">
-                      View Details <ArrowRight size={14} />
-                    </span>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-display font-bold text-foreground mb-2 line-clamp-2">{p.title}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed mb-4 line-clamp-1">{p.shortDesc}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {p.tags.slice(0, 3).map((t) => (
-                      <span key={t} className="px-3 py-1 bg-primary/10 text-primary font-mono text-xs rounded-full">{t}</span>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
+          {/* Grid Layout */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <AnimatePresence mode="popLayout">
+              {filtered.map((p, i) => (
+                <PrimeCard
+                  key={p.title}
+                  project={p}
+                  index={i}
+                  onClick={() => setSelectedProject(p)}
+                />
+              ))}
+            </AnimatePresence>
           </div>
+
+          {filtered.length === 0 && (
+            <div className="py-32 text-center">
+              <p className="font-mono text-muted-foreground text-sm tracking-widest uppercase">
+                ERROR: NO_PROJECTS_FOUND_IN_NAMESPACE
+              </p>
+            </div>
+          )}
         </div>
       </section>
 
-      {/* Modal for Project Details */}
       <AnimatePresence>
         {selectedProject && (
           <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
