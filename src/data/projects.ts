@@ -437,5 +437,185 @@ Providing real-time surveillance over dynamic Reddit communities, this solution 
     tags: ["n8n", "Reddit API", "Lead AI"],
     views: 1250, rating: 4.8, time: "3 weeks",
     image: "/portfolio-assets/reddit-notifier.png"
+  },
+  {
+    title: "AI Resume & Job Application System",
+    category: "N8n Automation",
+    shortDesc: "Automated workflow for job analysis, resume tailoring, and application tracking.",
+    fullDesc: `AI Resume & Job Application System Workflow Overview.\n\nThis comprehensive workflow automates the entire job application process. It monitors job boards, analyzes job descriptions using LLMs, matches against candidate profiles, dynamically tailors resumes and cover letters via Google Docs integration, and notifies the user via Telegram for final review and approval. Error handling and duplicate checks ensure reliable operation.`,
+    tags: ["n8n", "AI Automation", "Job Search"],
+    views: 850, rating: 4.8, time: "2 weeks",
+    image: "/portfolio-assets/c79e242be1534d6289c57ff92f965d943482bdda2dd2497eb21e1aaf7fcd2c6e.png"
+  },
+  {
+    title: "Multi-Agent Workflow Orchestrator",
+    category: "AI Agents",
+    shortDesc: "Multi-agent architecture coordinating email, task, and calendar management.",
+    fullDesc: `Multi-Agent Workflow Orchestrator Overview.\n\nA sophisticated AI system featuring an orchestrator that delegates tasks to specialized sub-agents: an Email Agent, a Task Manager Agent, and a Calendar Manager Agent. The system uses a conversational LLM (Gemini) to seamlessly integrate Google Workspace APIs, allowing natural language control over your entire digital workspace.`,
+    tags: ["Multi-Agent", "n8n", "Google Workspace"],
+    views: 1100, rating: 4.9, time: "3 weeks",
+    image: "/portfolio-assets/3124234.webp"
+  },
+  {
+    title: "Telegram Data Extraction & AI Analysis",
+    category: "N8n Automation",
+    shortDesc: "Automates PDF and image data extraction from Telegram messages.",
+    fullDesc: `Telegram Data Extraction & AI Analysis Overview.\n\nThis workflow intercepts files and images sent via Telegram, uses Google Gemini to semantically analyze and extract structured data from both text and visual documents, and automatically appends the processed intelligence into categorized Google Sheets for centralized tracking and reporting.`,
+    tags: ["Telegram", "Gemini AI", "Data Extraction"],
+    views: 920, rating: 4.7, time: "1 week",
+    image: "/portfolio-assets/32.png"
+  },
+  {
+    title: "Automated News Aggregator & AI Analysis",
+    category: "N8n Automation",
+    shortDesc: "Aggregates global news feeds and uses AI to curate relevant content.",
+    fullDesc: `Automated News Aggregator & AI Analysis Overview.\n\nAn intelligent news aggregator that continuously monitors RSS feeds from major outlets like Washington Post, WSJ, NYT, FT, and BBC. It uses OpenAI models to analyze articles for specific relevance (e.g., AI-related news), deduplicates entries, and seamlessly writes curated summaries into a Supabase database.`,
+    tags: ["n8n", "News Aggregation", "OpenAI"],
+    views: 1340, rating: 4.8, time: "2 weeks",
+    image: "/portfolio-assets/33.png"
+  },
+  {
+    title: "Comprehensive AI Content Generation System",
+    category: "N8n Automation",
+    shortDesc: "End-to-end system for topic research, content creation, and publishing.",
+    fullDesc: `Comprehensive AI Content Generation System Overview.\n\nA massive automation architecture designed to handle the entire lifecycle of content marketing. It features modules for deep Topic Research, intelligent Generate Content (tailored for LinkedIn, Facebook, X/Threads, and Short-form video scripts), a Chat Review system for collaboration, and a Publishing engine to automate distribution across all platforms.`,
+    tags: ["Content Marketing", "n8n", "AI Generation"],
+    views: 1850, rating: 5.0, time: "6 weeks",
+    image: "/portfolio-assets/34.webp"
+  },
+  {
+    title: "Geometry Nodes Procedural Wall Generator",
+    category: "3D Procedural Design",
+    shortDesc: "Advanced Blender Geometry Nodes setup for procedural wall and tile generation.",
+    fullDesc: `Geometry Nodes Procedural Wall Generator Overview.\n\nA complex procedural asset generator built in Blender using Geometry Nodes. It features mathematical calculations for tile indexing, spline evaluation, and dynamic instancing, allowing for real-time, non-destructive creation and variation of intricate wall structures and architectural elements.`,
+    tags: ["Blender", "Geometry Nodes", "Procedural 3D"],
+    views: 1050, rating: 4.9, time: "4 weeks",
+    image: "/portfolio-assets/35.png"
+  },
+  {
+    title: "Blender Geometry Nodes Blueprint",
+    category: "3D Procedural Design",
+    shortDesc: "Node-based visual scripting for procedural 3D environments.",
+    fullDesc: `Blender Geometry Nodes Blueprint Overview.\n\nAn intricate node setup demonstrating advanced procedural logic in Blender. This blueprint handles complex array deformations, tilt corrections, and mesh line instancing across splines, showcasing a deep understanding of mathematical node-based 3D modeling.`,
+    tags: ["Blender", "Geometry Nodes", "3D Art"],
+    views: 890, rating: 4.7, time: "3 weeks",
+    image: "/portfolio-assets/3d-tudor-blender-blueprint-walls-and-collumns-screenshots-7.jpg"
+  },
+  {
+    title: "Game Logic Visual Scripting",
+    category: "Visual Programming",
+    shortDesc: "Visual scripting workflow demonstrating complex state logic.",
+    fullDesc: `Game Logic Visual Scripting Overview.\n\nA visual programming blueprint showing event-driven logic. It features state management, mathematical calculations, timers, and variable updates to control animations and system states dynamically without writing traditional code.`,
+    tags: ["Visual Scripting", "Logic Design"],
+    views: 750, rating: 4.6, time: "2 weeks",
+    image: "/portfolio-assets/44.png"
+  },
+  {
+    title: "AI Cold Outreach & Followup System",
+    category: "N8n Automation",
+    shortDesc: "Automates personalized cold outreach and intelligent follow-ups.",
+    fullDesc: `AI Cold Outreach & Followup System Overview.\n\nThis workflow is designed to scale outbound sales. It automates the sending of initial cold emails or messages, listens for replies using a webhook or inbox trigger, and utilizes AI to analyze the sentiment and intent of the response to trigger the appropriate automated follow-up sequence.`,
+    tags: ["Sales Automation", "Outreach", "AI"],
+    views: 1200, rating: 4.8, time: "3 weeks",
+    image: "/portfolio-assets/AI Cold Outreach with Followup Listener.PNG"
+  },
+  {
+    title: "AI Confidence Coach for Women",
+    category: "AI Agents",
+    shortDesc: "A specialized AI agent designed for confidence coaching and empowerment.",
+    fullDesc: `AI Confidence Coach for Women Overview.\n\nA conversational AI agent fine-tuned with specific coaching frameworks to provide personalized guidance, encouragement, and actionable advice. Built to simulate a real coaching experience, it features stateful memory to track user progress and adapt its mentoring style over time.`,
+    tags: ["AI Coaching", "Chatbot", "Empowerment"],
+    views: 1450, rating: 4.9, time: "4 weeks",
+    image: "/portfolio-assets/AI Confidence coach for women.PNG"
+  },
+  {
+    title: "AI Viral Video Generation System",
+    category: "Generative AI",
+    shortDesc: "Automates the creation of short-form viral video content.",
+    fullDesc: `AI Viral Video Generation System Overview.\n\nAn end-to-end pipeline that takes trending topics or scripts and automatically generates high-quality short-form videos. The system orchestrates text-to-speech APIs, AI image/video generators, and dynamic captioning to produce ready-to-post content optimized for platforms like TikTok, Reels, and Shorts.`,
+    tags: ["Video Generation", "AI", "Content Automation"],
+    views: 2100, rating: 5.0, time: "5 weeks",
+    image: "/portfolio-assets/AI Viral Video Generation.PNG"
+  },
+  {
+    title: "Automated Twitter Posting Bot",
+    category: "Social Automation",
+    shortDesc: "AI-driven bot for consistent and engaging Twitter presence.",
+    fullDesc: `Automated Twitter Posting Bot Overview.\n\nThis bot automates Twitter account management by generating contextually relevant tweets, scheduling them for optimal engagement times, and responding to mentions. It integrates with LLMs to ensure the tone matches the brand voice and utilizes scraping to comment intelligently on trending industry topics.`,
+    tags: ["Twitter API", "Social Media", "Bot"],
+    views: 950, rating: 4.7, time: "2 weeks",
+    image: "/portfolio-assets/Automated twitter posting bot.PNG"
+  },
+  {
+    title: "Email Labeling & Organization with OpenAI",
+    category: "N8n Automation",
+    shortDesc: "Smart inbox management using semantic AI categorization.",
+    fullDesc: `Email Labeling & Organization with OpenAI Overview.\n\nA productivity automation that connects directly to your inbox. As new emails arrive, an OpenAI model analyzes the content, intent, and urgency, automatically applying the correct labels, moving spam/promotions out of the primary inbox, and flagging critical messages that require immediate attention.`,
+    tags: ["Email Management", "OpenAI", "Productivity"],
+    views: 1150, rating: 4.8, time: "2 weeks",
+    image: "/portfolio-assets/Email Labeling with Openai.PNG"
+  },
+  {
+    title: "Job Application Automatic AI Replier",
+    category: "AI Agents",
+    shortDesc: "Automates responses to job applicants or recruiters using AI.",
+    fullDesc: `Job Application Automatic AI Replier Overview.\n\nDesigned for freelancers and agencies, this system listens for inbound project inquiries or job applications. It uses AI to read the requirements, checks availability, and drafts an immediate, professional, and personalized response, significantly decreasing lead response time and increasing conversion rates.`,
+    tags: ["Auto-Reply", "Recruitment", "AI"],
+    views: 880, rating: 4.6, time: "1 week",
+    image: "/portfolio-assets/Job application automatic ai replier.PNG"
+  },
+  {
+    title: "Telegram Bot Automation Engine",
+    category: "Social Automation",
+    shortDesc: "Comprehensive framework for building interactive Telegram bots.",
+    fullDesc: `Telegram Bot Automation Engine Overview.\n\nA scalable backend architecture for Telegram bots. It handles dynamic user commands, inline keyboards, media processing, and complex multi-step conversation flows. The engine connects with external APIs and databases to provide real-time utility to users directly within the Telegram interface.`,
+    tags: ["Telegram API", "Bot Framework", "Automation"],
+    views: 1300, rating: 4.8, time: "3 weeks",
+    image: "/portfolio-assets/Telegram Automation.PNG"
+  },
+  {
+    title: "Blender Geometry Nodes ZigZag Curve",
+    category: "3D Procedural Design",
+    shortDesc: "Procedural generation of complex zigzag curves in Blender.",
+    fullDesc: `Blender Geometry Nodes ZigZag Curve Overview.\n\nA specific Geometry Nodes asset designed to procedurally generate and control zigzag curve patterns. By manipulating modulo mathematics and index masking, the node tree cleanly separates odd and even points, allowing for precise control over the amplitude, frequency, and deformation of the resulting 3D shape.`,
+    tags: ["Blender", "Geometry Nodes", "3D Modeling"],
+    views: 720, rating: 4.5, time: "1 week",
+    image: "/portfolio-assets/UvoWf.png"
+  },
+  {
+    title: "Workflow Personal Assistant",
+    category: "N8n Automation",
+    shortDesc: "A unified AI assistant orchestrating personal tasks and data.",
+    fullDesc: `Workflow Personal Assistant Overview.\n\nA central hub that connects various personal applications (calendar, notes, email, messaging) and unifies them under a single AI interface. The assistant can execute complex, multi-step actions across different platforms via simple natural language requests.`,
+    tags: ["Personal Assistant", "n8n", "AI Orchestration"],
+    views: 1600, rating: 4.9, time: "4 weeks",
+    image: "/portfolio-assets/Workflow-Personal-Assistant-1024x527.png"
+  },
+  {
+    title: "Business Process Automation Architecture",
+    category: "N8n Automation",
+    shortDesc: "Enterprise-grade automation across n8n, Make, and Zapier.",
+    fullDesc: `Business Process Automation Architecture Overview.\n\nA demonstration of complex business logic implemented across top automation platforms. This showcases the ability to map intricate company processes into robust, error-tolerant digital workflows that sync data seamlessly between CRMs, ERPs, and communication channels.`,
+    tags: ["Business Automation", "Zapier", "Make"],
+    views: 1950, rating: 5.0, time: "5 weeks",
+    image: "/portfolio-assets/create-n8n-make-zapier-for-business-automation-workflow.jpeg"
+  },
+  {
+    title: "Geometry Nodes Procedural Asset Generation",
+    category: "3D Procedural Design",
+    shortDesc: "Building scalable 3D assets using node-based logic.",
+    fullDesc: `Geometry Nodes Procedural Asset Generation Overview.\n\nAn exploration into non-destructive 3D asset creation. This system utilizes advanced vector math, instancing, and noise textures within Blender's Geometry Nodes to generate highly detailed, scalable, and customizable assets suitable for game environments or architectural visualization.`,
+    tags: ["Blender", "Procedural 3D", "Assets"],
+    views: 980, rating: 4.7, time: "3 weeks",
+    image: "/portfolio-assets/reinald-vargas-geometrynodes.jpg"
+  },
+  {
+    title: "Multi-Agent System with Memory",
+    category: "AI Agents",
+    shortDesc: "AI agent architecture featuring long-term memory and tool usage.",
+    fullDesc: `Multi-Agent System with Memory Overview.\n\nAn advanced AI architecture leveraging Azure OpenAI. This setup implements a Tools Agent equipped with a Window Buffer Memory to maintain context over long conversations. It efficiently aggregates historical data and decides when to use specific tools to fulfill complex user requests accurately.`,
+    tags: ["Multi-Agent", "Azure OpenAI", "Memory"],
+    views: 1550, rating: 4.9, time: "4 weeks",
+    image: "/portfolio-assets/1_2C73g_v7qkETteCQfroYEQ.png"
   }
 ];

@@ -5,8 +5,43 @@ import PageWrapper from "../components/PageWrapper";
 import { projects, Project } from "../data/projects";
 import ProjectModal from "../components/ProjectModal";
 
-const filters = ["All", "Voice AI", "Autonomous Agents", "AI Marketplace", "Request Scraping", "Selenium Scraping", "Social Automation", "N8n Automation"];
+const filters = [
+  "All",
+  "N8n Automation",
+  "AI Agents",
+  "Generative AI",
+  "Social Automation",
+  "Voice AI",
+  "AI Marketplace",
+  "3D Procedural Design",
+  "Visual Programming",
+  "Request Scraping",
+  "Selenium Scraping"
+];
 
+const highPriorityTitles = [
+  "Aixen AI",
+  "Clozr AI",
+  "ZetaFin",
+  "ZetaAgent",
+  "ZetAI",
+  "AI Resume & Job Application System",
+  "Comprehensive AI Content Generation System",
+  "Multi-Agent System with Memory",
+  "Multi-Agent Workflow Orchestrator",
+  "Business Process Automation Architecture",
+  "Telegram Bot Automation Engine",
+  "Automated News Aggregator & AI Analysis",
+  "Workflow Personal Assistant",
+  "Geometry Nodes Procedural Wall Generator"
+];
+
+const getPriority = (title: string) => {
+  if (highPriorityTitles.includes(title)) return 1;
+  if (title.includes("Scraper") || title.includes("Scraping") || title.includes("Bot") || title.includes("Extraction")) return 3;
+  if (title.includes("Blender") || title.includes("Geometry") || title.includes("Visual")) return 3;
+  return 2; // Medium priority for the rest (Cold Outreach, Video Gen, etc.)
+};
 const BorderBeam = ({ duration = 12, size = 150, delay = 0 }) => {
   return (
     <div className="absolute inset-0 pointer-events-none rounded-[inherit] [mask-image:linear-gradient(black,black),linear-gradient(black,black)] [mask-clip:content-box,padding-box] [mask-composite:intersect]">
@@ -148,7 +183,8 @@ const PortfolioPage = () => {
   const [active, setActive] = useState("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   
-  const filtered = active === "All" ? projects : projects.filter((p) => p.category === active);
+  const sortedProjects = [...projects].sort((a, b) => getPriority(a.title) - getPriority(b.title));
+  const filtered = active === "All" ? sortedProjects : sortedProjects.filter((p) => p.category === active);
 
   useEffect(() => {
     if (selectedProject) {
