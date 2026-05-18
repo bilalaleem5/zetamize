@@ -41,6 +41,7 @@ const Footer = () => (
             {["AI Automation", "Machine Learning", "Chatbot Development", "Process Automation", "Custom Python Apps"].map((s) => (
               <Link key={s} to="/#services" className="text-muted-foreground text-sm hover:text-primary transition-colors">{s}</Link>
             ))}
+            <Link to="/real-estate" className="text-muted-foreground text-sm hover:text-primary transition-colors">Real Estate Funnel</Link>
           </div>
         </div>
 

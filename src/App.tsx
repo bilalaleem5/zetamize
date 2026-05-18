@@ -14,6 +14,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import TeamPage from "./pages/TeamPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+import RealEstateFunnel from "./pages/RealEstateFunnel";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +41,21 @@ const ScrollToTop = () => {
 
 const AppContent = () => {
   const location = useLocation();
+  const isIsolatedFunnel = location.pathname.startsWith('/real-estate');
+
+  if (isIsolatedFunnel) {
+    return (
+      <div className="min-h-screen bg-black overflow-x-hidden text-white font-sans selection:bg-blue-500/30">
+        <ScrollToTop />
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/real-estate" element={<RealEstateFunnel />} />
+          </Routes>
+        </AnimatePresence>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
       <ScrollToTop />
@@ -50,12 +66,12 @@ const AppContent = () => {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/team" element={<TeamPage />} />
-
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>
       <Footer />
+      <AuraChatbot />
     </div>
   );
 };
@@ -78,7 +94,6 @@ const App = () => {
         {!loading && (
           <BrowserRouter>
             <AppContent />
-            <AuraChatbot />
           </BrowserRouter>
         )}
       </TooltipProvider>
