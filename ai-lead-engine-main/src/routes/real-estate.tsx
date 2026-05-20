@@ -28,7 +28,7 @@ import {
   DollarSign,
 } from "lucide-react";
 import logo from "@/assets/zetamize-logo.png";
-import skyline from "@/assets/re-hero-cinema.jpg";
+import skyline from "@/assets/re-hero-cinema.png";
 import penthouse from "@/assets/re-penthouse.jpg";
 import agent from "@/assets/re-agent.jpg";
 import network from "@/assets/re-network.jpg";
@@ -354,7 +354,7 @@ function Hero() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const bgScale = useTransform(scrollYProgress, [0, 1], [1.1, 1.3]);
-  const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0.55, 0.95]);
+  const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0.76, 0.97]);
   const contentY = useTransform(scrollYProgress, [0, 1], ["0%", "-15%"]);
 
   return (
@@ -375,7 +375,7 @@ function Hero() {
       {/* Gradient + vignette */}
       <motion.div
         style={{ opacity: overlayOpacity }}
-        className="absolute inset-0 bg-gradient-to-b from-[color:var(--zm-bg)]/40 via-[color:var(--zm-bg)]/70 to-[color:var(--zm-bg)]"
+        className="absolute inset-0 bg-gradient-to-b from-[color:var(--zm-bg)]/75 via-[color:var(--zm-bg)]/88 to-[color:var(--zm-bg)]"
       />
       <div className="absolute inset-0 zm-vignette pointer-events-none" />
       <div className="absolute inset-0 zm-noise" />
@@ -398,7 +398,7 @@ function Hero() {
             <Building2 size={12} /> For Brokerages, Developers & Luxury Agencies
           </motion.span>
 
-          <h1 className="zm-display text-[44px] sm:text-6xl lg:text-[88px] max-w-5xl leading-[1.0]">
+          <h1 className="zm-display text-[44px] sm:text-6xl lg:text-[88px] max-w-5xl leading-[1.0] drop-shadow-[0_8px_32px_rgba(0,0,0,0.85)] select-none">
             <motion.span
               initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -406,7 +406,7 @@ function Hero() {
               className="block"
             >
               Your agents are{" "}
-              <span className="zm-strike">working hard.</span>
+              <span className="zm-strike text-white/40 decoration-[#ff5b4a]/90">working hard.</span>
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
@@ -414,7 +414,7 @@ function Hero() {
               transition={{ duration: 1, delay: 0.55 }}
               className="block mt-2"
             >
-              Your <span className="zm-gradient-text zm-text-glow">leads are dying</span>
+              Your <span className="zm-gradient-text zm-text-glow font-extrabold tracking-tight">leads are dying</span>
               <br className="hidden sm:block" /> in the inbox.
             </motion.span>
           </h1>
@@ -423,10 +423,10 @@ function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.95, duration: 0.8 }}
-            className="mt-8 text-lg sm:text-xl zm-dim max-w-2xl leading-relaxed"
+            className="mt-8 text-lg sm:text-xl text-[#d1d5db] max-w-2xl leading-relaxed drop-shadow-[0_4px_12px_rgba(0,0,0,0.95)]"
           >
             You're spending five figures a month on Meta, Google and portal leads.
-            <span className="text-[color:var(--zm-text)]"> You're not losing them to competitors.</span>{" "}
+            <span className="text-white font-medium border-b border-[#b6ff2e]/45 pb-0.5 shadow-[0_4px_12px_rgba(0,0,0,0.8)]"> You're not losing them to competitors.</span>{" "}
             You're losing them to the 9-hour gap between &ldquo;new lead&rdquo; and &ldquo;first reply.&rdquo;
           </motion.p>
 

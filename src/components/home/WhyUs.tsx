@@ -6,7 +6,7 @@ import { useEffect, useState, useRef } from "react";
 const OrbitingFeature = ({ title, desc, icon: Icon, angle, index }: { title: string; desc: string; icon: any; angle: number; index: number }) => {
   const radius = 340; // Orbit radius
   const x = Math.cos((angle * Math.PI) / 180) * radius;
-  const y = Math.sin((angle * Math.PI) / 180) * (radius * 0.7); // Ellantical orbit for better 3D feel
+  const y = Math.sin((angle * Math.PI) / 180) * (radius * (angle === 90 ? 0.81 : 0.7)); // Ellantical orbit for better 3D feel, extra space for Tier-1 (angle 90)
 
   return (
     <motion.div
@@ -62,7 +62,7 @@ const EnergyLinkmesh = ({ angles }: { angles: number[] }) => {
         {angles.map((angle, i) => {
           const radius = 340;
           const x = 500 + Math.cos((angle * Math.PI) / 180) * (radius * 1.3); // Map to SVG coordinates
-          const y = 500 + Math.sin((angle * Math.PI) / 180) * (radius * 0.9);
+          const y = 500 + Math.sin((angle * Math.PI) / 180) * (radius * (angle === 90 ? 1.05 : 0.9));
 
           return (
             <g key={i}>

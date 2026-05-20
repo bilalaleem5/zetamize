@@ -12,6 +12,20 @@ interface Message {
 
 const AuraChatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hasBeenOpened, setHasBeenOpened] = useState(() => {
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("aura_chat_opened") === "true";
+    }
+    return false;
+  });
+
+  useEffect(() => {
+    if (isOpen && !hasBeenOpened) {
+      setHasBeenOpened(true);
+      localStorage.setItem("aura_chat_opened", "true");
+    }
+  }, [isOpen, hasBeenOpened]);
+
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
@@ -211,7 +225,7 @@ const AuraChatbot = () => {
             animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
             exit={{ opacity: 0, y: 50, scale: 0.9, filter: "blur(10px)" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="absolute bottom-20 right-0 w-[calc(100vw-32px)] sm:w-[420px] h-[calc(100vh-120px)] sm:h-[640px] bg-[#020408]/95 border border-primary/20 rounded-[32px] shadow-[0_0_80px_rgba(var(--primary-rgb),0.2)] flex flex-col overflow-hidden backdrop-blur-3xl"
+            className="absolute bottom-20 right-0 w-[calc(100vw-32px)] sm:w-[420px] h-[calc(100vh-140px)] sm:max-h-[640px] bg-[#020408]/95 border border-primary/20 rounded-[32px] shadow-[0_0_80px_rgba(var(--primary-rgb),0.2)] flex flex-col overflow-hidden backdrop-blur-3xl"
           >
             {/* Header */}
             <div className="p-6 border-b border-primary/10 bg-primary/5 flex items-center justify-between relative overflow-hidden">
@@ -335,7 +349,7 @@ const AuraChatbot = () => {
         </div>
         
         {/* Active Badge */}
-        {!isOpen && (
+        {!isOpen && !hasBeenOpened && (
           <div className="absolute -top-1 -right-1 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-primary text-[8px] text-black font-bold items-center justify-center">1</span>

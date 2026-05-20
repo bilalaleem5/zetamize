@@ -7,19 +7,19 @@ const testimonials = [
   {
     quote: "Total transformation.",
     name: "Ahmed R.",
-    image: "/ahmed_ceo.png",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200&h=200",
     rating: 5
   },
   {
     quote: "The AI chatbot cut support tickets by 60%. Incredible ROI.",
     name: "Sara K.",
-    image: "/sara_ops.png",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200&h=200",
     rating: 4
   },
   {
     quote: "Professional, fast, and strategically aware. They understood our complex business nuances perfectly.",
     name: "Usman A.",
-    image: "/usman_founder.png",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200&h=200",
     rating: 4.5
   },
   {
